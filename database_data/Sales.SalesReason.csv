@@ -1,0 +1,11 @@
+SalesReasonID,Name,ReasonType,ModifiedDate
+1,Price,Other,2002-06-01
+2,On Promotion,Promotion,2002-06-01
+3,Magazine Advertisement,Marketing,2002-06-01
+4,Television  Advertisement,Marketing,2002-06-01
+5,Manufacturer,Other,2002-06-01
+6,Review,Other,2002-06-01
+7,Demo Event,Marketing,2002-06-01
+8,Sponsorship,Marketing,2002-06-01
+9,Quality,Other,2002-06-01
+10,Other,Other,2002-06-01
