@@ -1,0 +1,1 @@
+print('placeholder synthetic data generator')
