@@ -1,0 +1,42 @@
+SHOW TABLES IN workspace.course_db;
+
+SELECT e.businessentityid, e.nationalidnumber, e.jobtitle,
+       edh.departmentid, edh.startdate, edh.enddate
+FROM humanresources_employee e
+INNER JOIN humanresources_employeedepartmenthistory edh
+  ON e.businessentityid = edh.businessentityid;
+
+WITH salesranges AS (
+  SELECT CASE
+           WHEN totaldue BETWEEN 0 AND 149.99 THEN '$0 to $149.99'
+           WHEN totaldue BETWEEN 150 AND 499.99 THEN '$150 to $499.99'
+           WHEN totaldue BETWEEN 500 AND 4999.99 THEN '$500 to $4,999.99'
+           WHEN totaldue BETWEEN 5000 AND 24999.99 THEN '$5,000 to $24,999.99'
+           ELSE 'Over $25,000'
+         END AS salespricerange,
+         salesorderid
+  FROM sales_salesorderheader
+  WHERE salespersonid IS NOT NULL
+)
+SELECT salespricerange, COUNT(*) AS cnt
+FROM salesranges
+GROUP BY salespricerange;
+
+SELECT productid, name, listprice,
+       ROW_NUMBER() OVER (ORDER BY listprice DESC) AS rownumber
+FROM production_product;
+SELECT salesorderid, orderdate, totaldue,
+       SUM(totaldue) OVER (ORDER BY orderdate) AS cumulativetotal
+FROM sales_salesorderheader;
+SELECT d.name AS departmentname,
+       e.jobtitle,
+       eph.rate,
+       RANK() OVER (PARTITION BY d.name ORDER BY eph.rate DESC) AS rankwithindepartment
+FROM humanresources_employee e
+INNER JOIN humanresources_employeedepartmenthistory edh
+  ON e.businessentityid = edh.businessentityid
+INNER JOIN humanresources_department d
+  ON edh.departmentid = d.departmentid
+INNER JOIN humanresources_employeepayhistory eph
+  ON e.businessentityid = eph.businessentityid;
+
