@@ -1,0 +1,951 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style-theme name='clean' />
+  <style>
+    <_.fcp.MarkAnimation.true...style-rule element='animation'>
+      <format attr='animation-on' value='ao-off' />
+    </_.fcp.MarkAnimation.true...style-rule>
+  </style>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='ReturnString' datatype='string' name='[Parameter 1]' param-domain-type='any' role='measure' type='nominal' value='&quot;\&quot;\&quot;&quot;'>
+        <calculation class='tableau' formula='&quot;&quot;&quot;&quot;&quot;&quot;' />
+      </column>
+    </datasource>
+    <datasource caption='2014_Olympics (2014_Olympics)' inline='true' name='excel-direct.42035.528866215274' version='18.1'>
+      <connection class='federated' prefer-ind-semantics='true'>
+        <named-connections>
+          <named-connection caption='2014_Olympics (2014_Olympics)' name='excel-direct.42035.528866215274leaf'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ABC/AppData/Local/Temp/TableauTemp/2071295507/Data/Data/2014_Olympics.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.42035.528866215274leaf' name='&apos;2014_Olympics$&apos;' table='[&apos;2014_Olympics$&apos;]' type='table'>
+          <columns gridOrigin='A1:I495:no:A1:I495:0' header='yes' outcome='6'>
+            <column datatype='string' name='Country' ordinal='0' />
+            <column datatype='string' name='Athlete' ordinal='1' />
+            <column datatype='string' name='Sex' ordinal='2' />
+            <column datatype='integer' name='Age' ordinal='3' />
+            <column datatype='string' name='Sport' ordinal='4' />
+            <column datatype='integer' name='Gold' ordinal='5' />
+            <column datatype='integer' name='Silver' ordinal='6' />
+            <column datatype='integer' name='Bronze' ordinal='7' />
+            <column datatype='integer' name='Total' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.42035.528866215274leaf' name='&apos;2014_Olympics$&apos;' table='[&apos;2014_Olympics$&apos;]' type='table'>
+          <columns gridOrigin='A1:I495:no:A1:I495:0' header='yes' outcome='6'>
+            <column datatype='string' name='Country' ordinal='0' />
+            <column datatype='string' name='Athlete' ordinal='1' />
+            <column datatype='string' name='Sex' ordinal='2' />
+            <column datatype='integer' name='Age' ordinal='3' />
+            <column datatype='string' name='Sport' ordinal='4' />
+            <column datatype='integer' name='Gold' ordinal='5' />
+            <column datatype='integer' name='Silver' ordinal='6' />
+            <column datatype='integer' name='Bronze' ordinal='7' />
+            <column datatype='integer' name='Total' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[&apos;2014_Olympics$&apos;]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I495:no:A1:I495:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[&apos;2014_Olympics$&apos;]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Athlete</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Athlete]</local-name>
+            <parent-name>[&apos;2014_Olympics$&apos;]</parent-name>
+            <remote-alias>Athlete</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sex</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sex]</local-name>
+            <parent-name>[&apos;2014_Olympics$&apos;]</parent-name>
+            <remote-alias>Sex</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[&apos;2014_Olympics$&apos;]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sport</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sport]</local-name>
+            <parent-name>[&apos;2014_Olympics$&apos;]</parent-name>
+            <remote-alias>Sport</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gold</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gold]</local-name>
+            <parent-name>[&apos;2014_Olympics$&apos;]</parent-name>
+            <remote-alias>Gold</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Silver</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Silver]</local-name>
+            <parent-name>[&apos;2014_Olympics$&apos;]</parent-name>
+            <remote-alias>Silver</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bronze</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bronze]</local-name>
+            <parent-name>[&apos;2014_Olympics$&apos;]</parent-name>
+            <remote-alias>Bronze</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[&apos;2014_Olympics$&apos;]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[excel-direct.42035.528866215274]&quot;' value='Medals' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[Bronze]' role='measure' type='quantitative' />
+      <column caption='Medal Type' datatype='string' name='[Calculation_6550326123217903]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF ([Bronze]&gt;0 AND [Silver] &gt; 0 AND [Gold] &gt; 0) THEN&#13;&#10;    STR([Gold]) + &quot; Gold, &quot; + STR([Silver]) + &quot; Silver, &quot; + STR([Bronze]) + &quot; Bronze&quot; &#13;&#10;ELSEIF([Silver] &gt; 0 AND [Gold] &gt; 0) THEN&#13;&#10;    STR([Gold]) + &quot; Gold, &quot; + STR([Silver]) + &quot; Silver&quot;&#13;&#10;ELSEIF([Bronze] &gt; 0 AND [Gold] &gt; 0) THEN&#13;&#10;    STR([Gold]) + &quot; Gold, &quot; + STR([Bronze]) + &quot; Bronze&quot;&#13;&#10;ELSEIF([Bronze]&gt;0 AND [Silver] &gt; 0) THEN&#13;&#10;    STR([Silver]) + &quot; Silver, &quot; + STR([Bronze]) + &quot; Bronze&quot;&#13;&#10;ELSEIF([Gold] &gt; 0) THEN&#13;&#10;    STR([Gold]) + &quot; Gold&quot;&#13;&#10;ELSEIF([Silver]) &gt; 0 THEN&#13;&#10;    STR([Silver]) + &quot; Silver&quot;&#13;&#10;ELSEIF([Bronze]) &gt; 0 THEN&#13;&#10;    STR([Bronze]) + &quot; Bronze&quot;&#13;&#10;END' scope-isolation='false' />
+      </column>
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Gold]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Silver]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Sport]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Migrated Data' datatype='table' name='[__tableau_internal_object_id__].[Migrated Data]' role='measure' type='quantitative' />
+      <column-instance column='[Bronze]' derivation='Sum' name='[sum:Bronze:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Gold]' derivation='Sum' name='[sum:Gold:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Silver]' derivation='Sum' name='[sum:Silver:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Country)' hidden='true' name='[Action (Country)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Sport)' hidden='true' name='[Action (Sport)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Sport]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/add_actions_to_a_dashboard_solution_10.0.twb Files/excel-direct.42035.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/15/2022 07:59:49 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='2014_Olympics (2014_Olympics)' increment-value='%null%' refresh-type='create' rows-inserted='494' timestamp-start='2022-03-15 19:59:49.859' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>0</ordinal>
+              <family>&apos;2014_Olympics$&apos;</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Athlete</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Athlete]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Athlete</remote-alias>
+              <ordinal>1</ordinal>
+              <family>&apos;2014_Olympics$&apos;</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>494</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sex</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sex]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sex</remote-alias>
+              <ordinal>2</ordinal>
+              <family>&apos;2014_Olympics$&apos;</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>3</ordinal>
+              <family>&apos;2014_Olympics$&apos;</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sport</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sport]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sport</remote-alias>
+              <ordinal>4</ordinal>
+              <family>&apos;2014_Olympics$&apos;</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gold</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Gold]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gold</remote-alias>
+              <ordinal>5</ordinal>
+              <family>&apos;2014_Olympics$&apos;</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Silver</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Silver]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Silver</remote-alias>
+              <ordinal>6</ordinal>
+              <family>&apos;2014_Olympics$&apos;</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Bronze</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Bronze]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Bronze</remote-alias>
+              <ordinal>7</ordinal>
+              <family>&apos;2014_Olympics$&apos;</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total</remote-alias>
+              <ordinal>8</ordinal>
+              <family>&apos;2014_Olympics$&apos;</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#a8786e'>
+              <bucket>&quot;[excel-direct.42035.528866215274].[sum:Bronze:qk]&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;[excel-direct.42035.528866215274].[sum:Gold:qk]&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;[excel-direct.42035.528866215274].[sum:Silver:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Migrated Data' id='Migrated Data'>
+            <properties context=''>
+              <relation connection='excel-direct.42035.528866215274leaf' name='&apos;2014_Olympics$&apos;' table='[&apos;2014_Olympics$&apos;]' type='table'>
+                <columns gridOrigin='A1:I495:no:A1:I495:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Country' ordinal='0' />
+                  <column datatype='string' name='Athlete' ordinal='1' />
+                  <column datatype='string' name='Sex' ordinal='2' />
+                  <column datatype='integer' name='Age' ordinal='3' />
+                  <column datatype='string' name='Sport' ordinal='4' />
+                  <column datatype='integer' name='Gold' ordinal='5' />
+                  <column datatype='integer' name='Silver' ordinal='6' />
+                  <column datatype='integer' name='Bronze' ordinal='7' />
+                  <column datatype='integer' name='Total' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Map Filter' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='2014 Sochi Olympics Results' type='sheet' worksheet='Medals by Country'>
+        <exclude-sheet name='Medals by Athlete' />
+      </source>
+      <command command='tsc:tsl-filter'>
+        <param name='on-empty' value='none' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='2014 Sochi Olympics Results' />
+      </command>
+    </action>
+    <action caption='Filter for Athletes' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='2014 Sochi Olympics Results' type='sheet' worksheet='Total Medals by Sport'>
+        <exclude-sheet name='Medals by Country' />
+      </source>
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='Medals by Country,Total Medals by Sport' />
+        <param name='on-empty' value='none' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='2014 Sochi Olympics Results' />
+      </command>
+    </action>
+    <action caption='Look up information about &lt;[Sport]&gt;' name='[Action3]'>
+      <source dashboard='2014 Sochi Olympics Results' type='sheet'>
+        <exclude-sheet name='Medals by Country' />
+      </source>
+      <link caption='' expression='http://en.wikipedia.org/wiki/&lt;[Sport]&gt;' />
+    </action>
+    <action caption='Look up information about &lt;[Athlete]&gt;' name='[Action4]'>
+      <source dashboard='2014 Sochi Olympics Results' type='sheet' worksheet='Medals by Athlete'>
+        <exclude-sheet name='Medals by Country' />
+      </source>
+      <link caption='' expression='http://www.bing.com/search?q=&quot;&lt;[Athlete]&gt;&quot; +Olympics' url-escape='true' />
+    </action>
+    <datasources>
+      <datasource caption='2014_Olympics (2014_Olympics)' name='excel-direct.42035.528866215274' />
+    </datasources>
+    <datasource-dependencies datasource='excel-direct.42035.528866215274'>
+      <column datatype='string' name='[Athlete]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Sport]' role='dimension' type='nominal' />
+    </datasource-dependencies>
+  </actions>
+  <worksheets>
+    <worksheet name='Medals by Athlete'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run>Sheet Name</run>
+            <run>&gt;</run>
+            <run>Æ </run>
+            <run>&lt;</run>
+            <run>[excel-direct.42035.528866215274].[Sport]</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2014_Olympics (2014_Olympics)' name='excel-direct.42035.528866215274' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.42035.528866215274'>
+            <column datatype='string' name='[Athlete]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Bronze]' role='measure' type='quantitative' />
+            <column caption='Medal Type' datatype='string' name='[Calculation_6550326123217903]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF ([Bronze]&gt;0 AND [Silver] &gt; 0 AND [Gold] &gt; 0) THEN&#13;&#10;    STR([Gold]) + &quot; Gold, &quot; + STR([Silver]) + &quot; Silver, &quot; + STR([Bronze]) + &quot; Bronze&quot; &#13;&#10;ELSEIF([Silver] &gt; 0 AND [Gold] &gt; 0) THEN&#13;&#10;    STR([Gold]) + &quot; Gold, &quot; + STR([Silver]) + &quot; Silver&quot;&#13;&#10;ELSEIF([Bronze] &gt; 0 AND [Gold] &gt; 0) THEN&#13;&#10;    STR([Gold]) + &quot; Gold, &quot; + STR([Bronze]) + &quot; Bronze&quot;&#13;&#10;ELSEIF([Bronze]&gt;0 AND [Silver] &gt; 0) THEN&#13;&#10;    STR([Silver]) + &quot; Silver, &quot; + STR([Bronze]) + &quot; Bronze&quot;&#13;&#10;ELSEIF([Gold] &gt; 0) THEN&#13;&#10;    STR([Gold]) + &quot; Gold&quot;&#13;&#10;ELSEIF([Silver]) &gt; 0 THEN&#13;&#10;    STR([Silver]) + &quot; Silver&quot;&#13;&#10;ELSEIF([Bronze]) &gt; 0 THEN&#13;&#10;    STR([Bronze]) + &quot; Bronze&quot;&#13;&#10;END' scope-isolation='false' />
+            </column>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Gold]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Silver]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sport]' role='dimension' type='nominal' />
+            <column-instance column='[Athlete]' derivation='None' name='[none:Athlete:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_6550326123217903]' derivation='None' name='[none:Calculation_6550326123217903:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sport]' derivation='None' name='[none:Sport:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.42035.528866215274].[Action (Country)]'>
+            <groupfilter function='empty-level' member='[Country]' user:ui-action-filter='[Action1]' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[excel-direct.42035.528866215274].[Action (Sport)]'>
+            <groupfilter function='empty-level' member='[Sport]' user:ui-action-filter='[Action2]' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[excel-direct.42035.528866215274].[Action (Country)]</column>
+            <column>[excel-direct.42035.528866215274].[Action (Sport)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[excel-direct.42035.528866215274].[:Measure Names]' value='165' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[excel-direct.42035.528866215274].[none:Calculation_6550326123217903:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-disallow'>
+            <view>
+              <breakdown value='off' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[excel-direct.42035.528866215274].[none:Calculation_6550326123217903:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([excel-direct.42035.528866215274].[none:Athlete:nk] / ([excel-direct.42035.528866215274].[none:Sport:nk] / [excel-direct.42035.528866215274].[none:Calculation_6550326123217903:nk]))</rows>
+        <cols>[excel-direct.42035.528866215274].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{46CC8FF1-4809-46C6-8998-D87DF6F5CD9F}' />
+    </worksheet>
+    <worksheet name='Medals by Country'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt;</run>
+            <run fontsize='10'>&#10;Click a country:</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2014_Olympics (2014_Olympics)' name='excel-direct.42035.528866215274' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='excel-direct.42035.528866215274'>
+            <column datatype='integer' name='[Bronze]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Gold]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Silver]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total]' role='measure' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Bronze]' derivation='Sum' name='[sum:Bronze:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gold]' derivation='Sum' name='[sum:Gold:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Silver]' derivation='Sum' name='[sum:Silver:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total]' derivation='Sum' name='[sum:Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.42035.528866215274].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42035.528866215274].[sum:Bronze:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42035.528866215274].[sum:Gold:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42035.528866215274].[sum:Silver:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[excel-direct.42035.528866215274].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[excel-direct.42035.528866215274].[Longitude (generated)]' field-type='quantitative' max='17886786.170314167' min='-16317866.698185178' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[excel-direct.42035.528866215274].[Latitude (generated)]' field-type='quantitative' max='18885398.227762736' min='-20328631.71987617' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='9-dash-line' value='false' />
+            <format attr='enabled' id='9-dash-line-casing' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-bg-sub' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute-sub' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress-bg' value='false' />
+            <format attr='enabled' id='admin-1-label-1st-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-6th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-7th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-8th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-9th-tier' value='false' />
+            <format attr='enabled' id='admin1-water-lines-usa-tableau' value='false' />
+            <format attr='enabled' id='light-9-dash-line' value='true' />
+            <format attr='enabled' id='light-9-dash-line-casing' value='true' />
+            <format attr='enabled' id='light-admin-0-boundaries' value='true' />
+            <format attr='enabled' id='light-admin-0-boundaries-bg' value='true' />
+            <format attr='enabled' id='light-admin-0-boundaries-bg-sub' value='true' />
+            <format attr='enabled' id='light-admin-0-boundaries-dispute' value='true' />
+            <format attr='enabled' id='light-admin-0-boundaries-dispute-sub' value='true' />
+            <format attr='enabled' id='light-admin-0-boundaries-sub' value='true' />
+            <format attr='enabled' id='light-admin-0-label-1st-tier' value='true' />
+            <format attr='enabled' id='light-admin-0-label-2nd-tier' value='true' />
+            <format attr='enabled' id='light-admin-0-label-3rd-tier' value='true' />
+            <format attr='enabled' id='light-admin-0-label-4th-tier' value='true' />
+            <format attr='enabled' id='light-admin-0-label-5th-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-boundaries-lg-parents' value='true' />
+            <format attr='enabled' id='light-admin-1-boundaries-lg-parents-bg' value='true' />
+            <format attr='enabled' id='light-admin-1-boundaries-md-parents' value='true' />
+            <format attr='enabled' id='light-admin-1-boundaries-md-parents-bg' value='true' />
+            <format attr='enabled' id='light-admin-1-boundaries-sm-parents' value='true' />
+            <format attr='enabled' id='light-admin-1-boundaries-sm-parents-bg' value='true' />
+            <format attr='enabled' id='light-admin-1-boundaries-supress' value='true' />
+            <format attr='enabled' id='light-admin-1-boundaries-supress-bg' value='true' />
+            <format attr='enabled' id='light-admin-1-label-1st-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-2nd-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-3rd-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-4th-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-5th-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-6th-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-7th-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-8th-tier' value='true' />
+            <format attr='enabled' id='light-admin-1-label-9th-tier' value='true' />
+            <format attr='enabled' id='light-admin1-water-lines-usa-tableau' value='true' />
+            <format attr='enabled' id='light-us-admin-1-label-abbr-1st-tier' value='true' />
+            <format attr='enabled' id='light-us-admin-1-label-abbr-2nd-tier' value='true' />
+            <format attr='enabled' id='light-us-admin-1-label-abbr-3rd-tier' value='true' />
+            <format attr='enabled' id='us-admin-1-label-abbr-1st-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-2nd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-3rd-tier' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-disallow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[excel-direct.42035.528866215274].[sum:Total:qk]' />
+              <lod column='[excel-direct.42035.528866215274].[none:Country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='129' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#555555' />
+                <format attr='size' value='1.6151933670043945' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel-direct.42035.528866215274].[Latitude (generated)]</rows>
+        <cols>[excel-direct.42035.528866215274].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{E4DF689F-2F61-4A74-8577-72F167DE953A}' />
+    </worksheet>
+    <worksheet name='Total Medals by Sport'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[<Sheet Name> for <[excel-direct.42035.528866215274].[Country]>]]></run>
+            <run fontsize='10'>
+Next, choose a sport to see the list of athletes:</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2014_Olympics (2014_Olympics)' name='excel-direct.42035.528866215274' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.42035.528866215274'>
+            <column datatype='integer' name='[Bronze]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Gold]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Silver]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sport]' role='dimension' type='nominal' />
+            <column-instance column='[Sport]' derivation='None' name='[none:Sport:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Bronze]' derivation='Sum' name='[sum:Bronze:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gold]' derivation='Sum' name='[sum:Gold:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Silver]' derivation='Sum' name='[sum:Silver:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.42035.528866215274].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42035.528866215274].[sum:Bronze:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42035.528866215274].[sum:Silver:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42035.528866215274].[sum:Gold:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[excel-direct.42035.528866215274].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[excel-direct.42035.528866215274].[sum:Bronze:qk]&quot;</bucket>
+              <bucket>&quot;[excel-direct.42035.528866215274].[sum:Silver:qk]&quot;</bucket>
+              <bucket>&quot;[excel-direct.42035.528866215274].[sum:Gold:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[excel-direct.42035.528866215274].[Action (Country)]'>
+            <groupfilter function='empty-level' member='[Country]' user:ui-action-filter='[Action1]' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[excel-direct.42035.528866215274].[none:Sport:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Ice Hockey&quot;</bucket>
+              <bucket>&quot;Cross Country Skiing&quot;</bucket>
+              <bucket>&quot;Biathlon&quot;</bucket>
+              <bucket>&quot;Speed Skating&quot;</bucket>
+              <bucket>&quot;Figure Skating&quot;</bucket>
+              <bucket>&quot;Short Track Speed Skating&quot;</bucket>
+              <bucket>&quot;Alpine Skiing&quot;</bucket>
+              <bucket>&quot;Snowboarding&quot;</bucket>
+              <bucket>&quot;Freestyle Skiing&quot;</bucket>
+              <bucket>&quot;Luge&quot;</bucket>
+              <bucket>&quot;Curling&quot;</bucket>
+              <bucket>&quot;Bobsleigh&quot;</bucket>
+              <bucket>&quot;Ski Jumping&quot;</bucket>
+              <bucket>&quot;Nordic Combined&quot;</bucket>
+              <bucket>&quot;Skeleton&quot;</bucket>
+              <bucket>&quot;Biathlon Cross Country Skiing&quot;</bucket>
+              <bucket>&quot;Short Track Speed Skating Speed Skating&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[excel-direct.42035.528866215274].[:Measure Names]</column>
+            <column>[excel-direct.42035.528866215274].[Action (Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-disallow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[excel-direct.42035.528866215274].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[excel-direct.42035.528866215274].[none:Sport:nk]</rows>
+        <cols>[excel-direct.42035.528866215274].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{3DAED536-B743-45BA-ADFA-871469063329}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='2014 Sochi Olympics Results'>
+      <style />
+      <size maxheight='600' maxwidth='900' minheight='600' minwidth='900' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97334' id='3' param='vert' type-v2='layout-flow' w='98222' x='889' y='1333'>
+            <zone h='5334' id='1' type-v2='title' w='98222' x='889' y='1333'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+                <format attr='margin-top' value='0' />
+                <format attr='margin-right' value='0' />
+                <format attr='margin-left' value='0' />
+              </zone-style>
+            </zone>
+            <zone h='92000' id='4' type-v2='layout-basic' w='98222' x='889' y='6667'>
+              <zone h='92000' id='5' name='Medals by Country' show-title='false' w='49111' x='889' y='6667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                  <format attr='margin-left' value='0' />
+                </zone-style>
+              </zone>
+              <zone h='92000' id='6' param='vert' type-v2='layout-flow' w='49111' x='50000' y='6667'>
+                <zone h='0' id='7' name='Total Medals by Sport' w='49111' x='50000' y='6667'>
+                  <layout-cache type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='margin-right' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='51333' id='8' name='Medals by Athlete' w='49111' x='50000' y='6667'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='margin-right' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='4' />
+            <format attr='margin-top' value='8' />
+            <format attr='margin-right' value='8' />
+            <format attr='margin-bottom' value='8' />
+            <format attr='margin-left' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{F694F9FE-B071-49B8-B7DF-F097D1B693F2}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Medals by Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{155346C8-BA10-442E-A956-76EE91FFAED7}' />
+    </window>
+    <window class='worksheet' name='Total Medals by Sport'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AE57B49A-9413-421F-8A80-247BDD901594}' />
+    </window>
+    <window class='worksheet' name='Medals by Athlete'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DF109669-489D-4193-AE02-DF3256081512}' />
+    </window>
+    <window class='dashboard' maximized='true' name='2014 Sochi Olympics Results'>
+      <viewpoints>
+        <viewpoint name='Medals by Athlete'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Medals by Country'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Total Medals by Sport'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{1C1C794C-C37A-43FF-8531-6AF285092CE3}' />
+    </window>
+  </windows>
+</workbook>

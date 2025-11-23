@@ -1,0 +1,504 @@
+﻿TableName,ColumnName,ConstraintType,PrimaryKeyName,ForeignKeyName,ForeignKeyTableName,ForeignKeyColumnName
+Address,AddressID,Primary Key,PK_Address_AddressID,NULL,NULL,NULL
+Address,AddressLine1,,NULL,NULL,NULL,NULL
+Address,AddressLine2,,NULL,NULL,NULL,NULL
+Address,City,,NULL,NULL,NULL,NULL
+Address,ModifiedDate,,NULL,NULL,NULL,NULL
+Address,PostalCode,,NULL,NULL,NULL,NULL
+Address,rowguid,,NULL,NULL,NULL,NULL
+Address,SpatialLocation,,NULL,NULL,NULL,NULL
+Address,StateProvinceID,,NULL,FK_Address_StateProvince_StateProvinceID,StateProvince,StateProvinceID
+AddressType,AddressTypeID,Primary Key,PK_AddressType_AddressTypeID,NULL,NULL,NULL
+AddressType,ModifiedDate,,NULL,NULL,NULL,NULL
+AddressType,Name,,NULL,NULL,NULL,NULL
+AddressType,rowguid,,NULL,NULL,NULL,NULL
+AWBuildVersion,Database Version,,NULL,NULL,NULL,NULL
+AWBuildVersion,ModifiedDate,,NULL,NULL,NULL,NULL
+AWBuildVersion,SystemInformationID,Primary Key,PK_AWBuildVersion_SystemInformationID,NULL,NULL,NULL
+AWBuildVersion,VersionDate,,NULL,NULL,NULL,NULL
+BillOfMaterials,BillOfMaterialsID,Primary Key,PK_BillOfMaterials_BillOfMaterialsID,NULL,NULL,NULL
+BillOfMaterials,BOMLevel,,NULL,NULL,NULL,NULL
+BillOfMaterials,ComponentID,,NULL,FK_BillOfMaterials_Product_ComponentID,Product,ProductID
+BillOfMaterials,EndDate,,NULL,NULL,NULL,NULL
+BillOfMaterials,ModifiedDate,,NULL,NULL,NULL,NULL
+BillOfMaterials,PerAssemblyQty,,NULL,NULL,NULL,NULL
+BillOfMaterials,ProductAssemblyID,,NULL,FK_BillOfMaterials_Product_ProductAssemblyID,Product,ProductID
+BillOfMaterials,StartDate,,NULL,NULL,NULL,NULL
+BillOfMaterials,UnitMeasureCode,,NULL,FK_BillOfMaterials_UnitMeasure_UnitMeasureCode,UnitMeasure,UnitMeasureCode
+BusinessEntity,BusinessEntityID,Primary Key,PK_BusinessEntity_BusinessEntityID,NULL,NULL,NULL
+BusinessEntity,ModifiedDate,,NULL,NULL,NULL,NULL
+BusinessEntity,rowguid,,NULL,NULL,NULL,NULL
+BusinessEntityAddress,AddressID,,NULL,FK_BusinessEntityAddress_Address_AddressID,Address,AddressID
+BusinessEntityAddress,AddressID,Primary Key,PK_BusinessEntityAddress_BusinessEntityID_AddressID_AddressTypeID,FK_BusinessEntityAddress_Address_AddressID,Address,AddressID
+BusinessEntityAddress,AddressTypeID,,NULL,FK_BusinessEntityAddress_AddressType_AddressTypeID,AddressType,AddressTypeID
+BusinessEntityAddress,AddressTypeID,Primary Key,PK_BusinessEntityAddress_BusinessEntityID_AddressID_AddressTypeID,FK_BusinessEntityAddress_AddressType_AddressTypeID,AddressType,AddressTypeID
+BusinessEntityAddress,BusinessEntityID,Primary Key,PK_BusinessEntityAddress_BusinessEntityID_AddressID_AddressTypeID,FK_BusinessEntityAddress_BusinessEntity_BusinessEntityID,BusinessEntity,BusinessEntityID
+BusinessEntityAddress,ModifiedDate,,NULL,NULL,NULL,NULL
+BusinessEntityAddress,rowguid,,NULL,NULL,NULL,NULL
+BusinessEntityContact,BusinessEntityID,Primary Key,PK_BusinessEntityContact_BusinessEntityID_PersonID_ContactTypeID,FK_BusinessEntityContact_BusinessEntity_BusinessEntityID,BusinessEntity,BusinessEntityID
+BusinessEntityContact,ContactTypeID,,NULL,FK_BusinessEntityContact_ContactType_ContactTypeID,ContactType,ContactTypeID
+BusinessEntityContact,ContactTypeID,Primary Key,PK_BusinessEntityContact_BusinessEntityID_PersonID_ContactTypeID,FK_BusinessEntityContact_ContactType_ContactTypeID,ContactType,ContactTypeID
+BusinessEntityContact,ModifiedDate,,NULL,NULL,NULL,NULL
+BusinessEntityContact,PersonID,,NULL,FK_BusinessEntityContact_Person_PersonID,Person,BusinessEntityID
+BusinessEntityContact,PersonID,Primary Key,PK_BusinessEntityContact_BusinessEntityID_PersonID_ContactTypeID,FK_BusinessEntityContact_Person_PersonID,Person,BusinessEntityID
+BusinessEntityContact,rowguid,,NULL,NULL,NULL,NULL
+ContactType,ContactTypeID,Primary Key,PK_ContactType_ContactTypeID,NULL,NULL,NULL
+ContactType,ModifiedDate,,NULL,NULL,NULL,NULL
+ContactType,Name,,NULL,NULL,NULL,NULL
+CountryRegion,CountryRegionCode,Primary Key,PK_CountryRegion_CountryRegionCode,NULL,NULL,NULL
+CountryRegion,ModifiedDate,,NULL,NULL,NULL,NULL
+CountryRegion,Name,,NULL,NULL,NULL,NULL
+CountryRegionCurrency,CountryRegionCode,Primary Key,PK_CountryRegionCurrency_CountryRegionCode_CurrencyCode,FK_CountryRegionCurrency_CountryRegion_CountryRegionCode,CountryRegion,CountryRegionCode
+CountryRegionCurrency,CurrencyCode,,NULL,FK_CountryRegionCurrency_Currency_CurrencyCode,Currency,CurrencyCode
+CountryRegionCurrency,CurrencyCode,Primary Key,PK_CountryRegionCurrency_CountryRegionCode_CurrencyCode,FK_CountryRegionCurrency_Currency_CurrencyCode,Currency,CurrencyCode
+CountryRegionCurrency,ModifiedDate,,NULL,NULL,NULL,NULL
+CreditCard,CardNumber,,NULL,NULL,NULL,NULL
+CreditCard,CardType,,NULL,NULL,NULL,NULL
+CreditCard,CreditCardID,Primary Key,PK_CreditCard_CreditCardID,NULL,NULL,NULL
+CreditCard,ExpMonth,,NULL,NULL,NULL,NULL
+CreditCard,ExpYear,,NULL,NULL,NULL,NULL
+CreditCard,ModifiedDate,,NULL,NULL,NULL,NULL
+Culture,CultureID,Primary Key,PK_Culture_CultureID,NULL,NULL,NULL
+Culture,ModifiedDate,,NULL,NULL,NULL,NULL
+Culture,Name,,NULL,NULL,NULL,NULL
+Currency,CurrencyCode,Primary Key,PK_Currency_CurrencyCode,NULL,NULL,NULL
+Currency,ModifiedDate,,NULL,NULL,NULL,NULL
+Currency,Name,,NULL,NULL,NULL,NULL
+CurrencyRate,AverageRate,,NULL,NULL,NULL,NULL
+CurrencyRate,CurrencyRateDate,,NULL,NULL,NULL,NULL
+CurrencyRate,CurrencyRateID,Primary Key,PK_CurrencyRate_CurrencyRateID,NULL,NULL,NULL
+CurrencyRate,EndOfDayRate,,NULL,NULL,NULL,NULL
+CurrencyRate,FromCurrencyCode,,NULL,FK_CurrencyRate_Currency_FromCurrencyCode,Currency,CurrencyCode
+CurrencyRate,ModifiedDate,,NULL,NULL,NULL,NULL
+CurrencyRate,ToCurrencyCode,,NULL,FK_CurrencyRate_Currency_ToCurrencyCode,Currency,CurrencyCode
+Customer,AccountNumber,,NULL,NULL,NULL,NULL
+Customer,CustomerID,Primary Key,PK_Customer_CustomerID,NULL,NULL,NULL
+Customer,ModifiedDate,,NULL,NULL,NULL,NULL
+Customer,PersonID,,NULL,FK_Customer_Person_PersonID,Person,BusinessEntityID
+Customer,rowguid,,NULL,NULL,NULL,NULL
+Customer,StoreID,,NULL,FK_Customer_Store_StoreID,Store,BusinessEntityID
+Customer,TerritoryID,,NULL,FK_Customer_SalesTerritory_TerritoryID,SalesTerritory,TerritoryID
+DatabaseLog,DatabaseLogID,Primary Key,PK_DatabaseLog_DatabaseLogID,NULL,NULL,NULL
+DatabaseLog,DatabaseUser,,NULL,NULL,NULL,NULL
+DatabaseLog,Event,,NULL,NULL,NULL,NULL
+DatabaseLog,Object,,NULL,NULL,NULL,NULL
+DatabaseLog,PostTime,,NULL,NULL,NULL,NULL
+DatabaseLog,Schema,,NULL,NULL,NULL,NULL
+DatabaseLog,TSQL,,NULL,NULL,NULL,NULL
+DatabaseLog,XmlEvent,,NULL,NULL,NULL,NULL
+Department,DepartmentID,Primary Key,PK_Department_DepartmentID,NULL,NULL,NULL
+Department,GroupName,,NULL,NULL,NULL,NULL
+Department,ModifiedDate,,NULL,NULL,NULL,NULL
+Department,Name,,NULL,NULL,NULL,NULL
+Document,ChangeNumber,,NULL,NULL,NULL,NULL
+Document,Document,,NULL,NULL,NULL,NULL
+Document,DocumentLevel,,NULL,NULL,NULL,NULL
+Document,DocumentNode,,NULL,NULL,NULL,NULL
+Document,DocumentNode,Primary Key,PK_Document_DocumentNode,NULL,NULL,NULL
+Document,DocumentSummary,,NULL,NULL,NULL,NULL
+Document,FileExtension,,NULL,NULL,NULL,NULL
+Document,FileName,,NULL,NULL,NULL,NULL
+Document,FolderFlag,,NULL,NULL,NULL,NULL
+Document,ModifiedDate,,NULL,NULL,NULL,NULL
+Document,Owner,,NULL,FK_Document_Employee_Owner,Employee,BusinessEntityID
+Document,Revision,,NULL,NULL,NULL,NULL
+Document,rowguid,,NULL,NULL,NULL,NULL
+Document,Status,,NULL,NULL,NULL,NULL
+Document,Title,,NULL,NULL,NULL,NULL
+EmailAddress,BusinessEntityID,Primary Key,PK_EmailAddress_BusinessEntityID_EmailAddressID,FK_EmailAddress_Person_BusinessEntityID,Person,BusinessEntityID
+EmailAddress,EmailAddress,,NULL,NULL,NULL,NULL
+EmailAddress,EmailAddressID,Primary Key,PK_EmailAddress_BusinessEntityID_EmailAddressID,NULL,NULL,NULL
+EmailAddress,ModifiedDate,,NULL,NULL,NULL,NULL
+EmailAddress,rowguid,,NULL,NULL,NULL,NULL
+Employee,Address,,NULL,NULL,NULL,NULL
+Employee,BirthDate,,NULL,NULL,NULL,NULL
+Employee,BusinessEntityID,Primary Key,PK_Employee_BusinessEntityID,FK_Employee_Person_BusinessEntityID,Person,BusinessEntityID
+Employee,City,,NULL,NULL,NULL,NULL
+Employee,CurrentFlag,,NULL,NULL,NULL,NULL
+Employee,EmpId,,NULL,NULL,NULL,NULL
+Employee,FirstName,,NULL,NULL,NULL,NULL
+Employee,Gender,,NULL,NULL,NULL,NULL
+Employee,HireDate,,NULL,NULL,NULL,NULL
+Employee,JobTitle,,NULL,NULL,NULL,NULL
+Employee,LastName,,NULL,NULL,NULL,NULL
+Employee,LoginID,,NULL,NULL,NULL,NULL
+Employee,MaritalStatus,,NULL,NULL,NULL,NULL
+Employee,ModifiedDate,,NULL,NULL,NULL,NULL
+Employee,NationalIDNumber,,NULL,NULL,NULL,NULL
+Employee,OrganizationLevel,,NULL,NULL,NULL,NULL
+Employee,OrganizationNode,,NULL,NULL,NULL,NULL
+Employee,rowguid,,NULL,NULL,NULL,NULL
+Employee,SalariedFlag,,NULL,NULL,NULL,NULL
+Employee,SickLeaveHours,,NULL,NULL,NULL,NULL
+Employee,VacationHours,,NULL,NULL,NULL,NULL
+EmployeeDepartmentHistory,BusinessEntityID,Primary Key,PK_EmployeeDepartmentHistory_BusinessEntityID_StartDate_DepartmentID,FK_EmployeeDepartmentHistory_Employee_BusinessEntityID,Employee,BusinessEntityID
+EmployeeDepartmentHistory,DepartmentID,,NULL,FK_EmployeeDepartmentHistory_Department_DepartmentID,Department,DepartmentID
+EmployeeDepartmentHistory,DepartmentID,Primary Key,PK_EmployeeDepartmentHistory_BusinessEntityID_StartDate_DepartmentID,FK_EmployeeDepartmentHistory_Department_DepartmentID,Department,DepartmentID
+EmployeeDepartmentHistory,EndDate,,NULL,NULL,NULL,NULL
+EmployeeDepartmentHistory,ModifiedDate,,NULL,NULL,NULL,NULL
+EmployeeDepartmentHistory,ShiftID,,NULL,FK_EmployeeDepartmentHistory_Shift_ShiftID,Shift,ShiftID
+EmployeeDepartmentHistory,ShiftID,Primary Key,PK_EmployeeDepartmentHistory_BusinessEntityID_StartDate_DepartmentID,FK_EmployeeDepartmentHistory_Shift_ShiftID,Shift,ShiftID
+EmployeeDepartmentHistory,StartDate,Primary Key,PK_EmployeeDepartmentHistory_BusinessEntityID_StartDate_DepartmentID,NULL,NULL,NULL
+EmployeePayHistory,BusinessEntityID,Primary Key,PK_EmployeePayHistory_BusinessEntityID_RateChangeDate,FK_EmployeePayHistory_Employee_BusinessEntityID,Employee,BusinessEntityID
+EmployeePayHistory,ModifiedDate,,NULL,NULL,NULL,NULL
+EmployeePayHistory,PayFrequency,,NULL,NULL,NULL,NULL
+EmployeePayHistory,Rate,,NULL,NULL,NULL,NULL
+EmployeePayHistory,RateChangeDate,Primary Key,PK_EmployeePayHistory_BusinessEntityID_RateChangeDate,NULL,NULL,NULL
+ErrorLog,ErrorLine,,NULL,NULL,NULL,NULL
+ErrorLog,ErrorLogID,Primary Key,PK_ErrorLog_ErrorLogID,NULL,NULL,NULL
+ErrorLog,ErrorMessage,,NULL,NULL,NULL,NULL
+ErrorLog,ErrorNumber,,NULL,NULL,NULL,NULL
+ErrorLog,ErrorProcedure,,NULL,NULL,NULL,NULL
+ErrorLog,ErrorSeverity,,NULL,NULL,NULL,NULL
+ErrorLog,ErrorState,,NULL,NULL,NULL,NULL
+ErrorLog,ErrorTime,,NULL,NULL,NULL,NULL
+ErrorLog,UserName,,NULL,NULL,NULL,NULL
+Illustration,Diagram,,NULL,NULL,NULL,NULL
+Illustration,IllustrationID,Primary Key,PK_Illustration_IllustrationID,NULL,NULL,NULL
+Illustration,ModifiedDate,,NULL,NULL,NULL,NULL
+JobCandidate,BusinessEntityID,,NULL,FK_JobCandidate_Employee_BusinessEntityID,Employee,BusinessEntityID
+JobCandidate,JobCandidateID,Primary Key,PK_JobCandidate_JobCandidateID,NULL,NULL,NULL
+JobCandidate,ModifiedDate,,NULL,NULL,NULL,NULL
+JobCandidate,Resume,,NULL,NULL,NULL,NULL
+Location,Availability,,NULL,NULL,NULL,NULL
+Location,CostRate,,NULL,NULL,NULL,NULL
+Location,LocationID,Primary Key,PK_Location_LocationID,NULL,NULL,NULL
+Location,ModifiedDate,,NULL,NULL,NULL,NULL
+Location,Name,,NULL,NULL,NULL,NULL
+Password,BusinessEntityID,Primary Key,PK_Password_BusinessEntityID,FK_Password_Person_BusinessEntityID,Person,BusinessEntityID
+Password,ModifiedDate,,NULL,NULL,NULL,NULL
+Password,PasswordHash,,NULL,NULL,NULL,NULL
+Password,PasswordSalt,,NULL,NULL,NULL,NULL
+Password,rowguid,,NULL,NULL,NULL,NULL
+Person,AdditionalContactInfo,,NULL,NULL,NULL,NULL
+Person,BusinessEntityID,Primary Key,PK_Person_BusinessEntityID,FK_Person_BusinessEntity_BusinessEntityID,BusinessEntity,BusinessEntityID
+Person,Demographics,,NULL,NULL,NULL,NULL
+Person,EmailPromotion,,NULL,NULL,NULL,NULL
+Person,FirstName,,NULL,NULL,NULL,NULL
+Person,LastName,,NULL,NULL,NULL,NULL
+Person,MiddleName,,NULL,NULL,NULL,NULL
+Person,ModifiedDate,,NULL,NULL,NULL,NULL
+Person,NameStyle,,NULL,NULL,NULL,NULL
+Person,PersonType,,NULL,NULL,NULL,NULL
+Person,rowguid,,NULL,NULL,NULL,NULL
+Person,Suffix,,NULL,NULL,NULL,NULL
+Person,Title,,NULL,NULL,NULL,NULL
+PersonCreditCard,BusinessEntityID,Primary Key,PK_PersonCreditCard_BusinessEntityID_CreditCardID,FK_PersonCreditCard_Person_BusinessEntityID,Person,BusinessEntityID
+PersonCreditCard,CreditCardID,Primary Key,PK_PersonCreditCard_BusinessEntityID_CreditCardID,FK_PersonCreditCard_CreditCard_CreditCardID,CreditCard,CreditCardID
+PersonCreditCard,ModifiedDate,,NULL,NULL,NULL,NULL
+PersonPhone,BusinessEntityID,Primary Key,PK_PersonPhone_BusinessEntityID_PhoneNumber_PhoneNumberTypeID,FK_PersonPhone_Person_BusinessEntityID,Person,BusinessEntityID
+PersonPhone,ModifiedDate,,NULL,NULL,NULL,NULL
+PersonPhone,PhoneNumber,,NULL,NULL,NULL,NULL
+PersonPhone,PhoneNumber,Primary Key,PK_PersonPhone_BusinessEntityID_PhoneNumber_PhoneNumberTypeID,NULL,NULL,NULL
+PersonPhone,PhoneNumberTypeID,Primary Key,PK_PersonPhone_BusinessEntityID_PhoneNumber_PhoneNumberTypeID,FK_PersonPhone_PhoneNumberType_PhoneNumberTypeID,PhoneNumberType,PhoneNumberTypeID
+PhoneNumberType,ModifiedDate,,NULL,NULL,NULL,NULL
+PhoneNumberType,Name,,NULL,NULL,NULL,NULL
+PhoneNumberType,PhoneNumberTypeID,Primary Key,PK_PhoneNumberType_PhoneNumberTypeID,NULL,NULL,NULL
+Product,Class,,NULL,NULL,NULL,NULL
+Product,Color,,NULL,NULL,NULL,NULL
+Product,DaysToManufacture,,NULL,NULL,NULL,NULL
+Product,DiscontinuedDate,,NULL,NULL,NULL,NULL
+Product,FinishedGoodsFlag,,NULL,NULL,NULL,NULL
+Product,ListPrice,,NULL,NULL,NULL,NULL
+Product,MakeFlag,,NULL,NULL,NULL,NULL
+Product,ModifiedDate,,NULL,NULL,NULL,NULL
+Product,Name,,NULL,NULL,NULL,NULL
+Product,ProductID,Primary Key,PK_Product_ProductID,NULL,NULL,NULL
+Product,ProductLine,,NULL,NULL,NULL,NULL
+Product,ProductModelID,,NULL,FK_Product_ProductModel_ProductModelID,ProductModel,ProductModelID
+Product,ProductNumber,,NULL,NULL,NULL,NULL
+Product,ProductSubcategoryID,,NULL,FK_Product_ProductSubcategory_ProductSubcategoryID,ProductSubcategory,ProductSubcategoryID
+Product,ReorderPoint,,NULL,NULL,NULL,NULL
+Product,rowguid,,NULL,NULL,NULL,NULL
+Product,SafetyStockLevel,,NULL,NULL,NULL,NULL
+Product,SellEndDate,,NULL,NULL,NULL,NULL
+Product,SellStartDate,,NULL,NULL,NULL,NULL
+Product,Size,,NULL,NULL,NULL,NULL
+Product,SizeUnitMeasureCode,,NULL,FK_Product_UnitMeasure_SizeUnitMeasureCode,UnitMeasure,UnitMeasureCode
+Product,StandardCost,,NULL,NULL,NULL,NULL
+Product,Style,,NULL,NULL,NULL,NULL
+Product,Weight,,NULL,NULL,NULL,NULL
+Product,WeightUnitMeasureCode,,NULL,FK_Product_UnitMeasure_WeightUnitMeasureCode,UnitMeasure,UnitMeasureCode
+ProductCategory,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductCategory,Name,,NULL,NULL,NULL,NULL
+ProductCategory,ProductCategoryID,Primary Key,PK_ProductCategory_ProductCategoryID,NULL,NULL,NULL
+ProductCategory,rowguid,,NULL,NULL,NULL,NULL
+ProductCostHistory,EndDate,,NULL,NULL,NULL,NULL
+ProductCostHistory,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductCostHistory,ProductID,Primary Key,PK_ProductCostHistory_ProductID_StartDate,FK_ProductCostHistory_Product_ProductID,Product,ProductID
+ProductCostHistory,StandardCost,,NULL,NULL,NULL,NULL
+ProductCostHistory,StartDate,Primary Key,PK_ProductCostHistory_ProductID_StartDate,NULL,NULL,NULL
+ProductDescription,Description,,NULL,NULL,NULL,NULL
+ProductDescription,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductDescription,ProductDescriptionID,Primary Key,PK_ProductDescription_ProductDescriptionID,NULL,NULL,NULL
+ProductDescription,rowguid,,NULL,NULL,NULL,NULL
+ProductDocument,DocumentNode,Primary Key,PK_ProductDocument_ProductID_DocumentNode,FK_ProductDocument_Document_DocumentNode,Document,DocumentNode
+ProductDocument,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductDocument,ProductID,Primary Key,PK_ProductDocument_ProductID_DocumentNode,FK_ProductDocument_Product_ProductID,Product,ProductID
+ProductInventory,Bin,,NULL,NULL,NULL,NULL
+ProductInventory,LocationID,Primary Key,PK_ProductInventory_ProductID_LocationID,FK_ProductInventory_Location_LocationID,Location,LocationID
+ProductInventory,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductInventory,ProductID,Primary Key,PK_ProductInventory_ProductID_LocationID,FK_ProductInventory_Product_ProductID,Product,ProductID
+ProductInventory,Quantity,,NULL,NULL,NULL,NULL
+ProductInventory,rowguid,,NULL,NULL,NULL,NULL
+ProductInventory,Shelf,,NULL,NULL,NULL,NULL
+ProductListPriceHistory,EndDate,,NULL,NULL,NULL,NULL
+ProductListPriceHistory,ListPrice,,NULL,NULL,NULL,NULL
+ProductListPriceHistory,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductListPriceHistory,ProductID,Primary Key,PK_ProductListPriceHistory_ProductID_StartDate,FK_ProductListPriceHistory_Product_ProductID,Product,ProductID
+ProductListPriceHistory,StartDate,Primary Key,PK_ProductListPriceHistory_ProductID_StartDate,NULL,NULL,NULL
+ProductModel,CatalogDescription,,NULL,NULL,NULL,NULL
+ProductModel,Instructions,,NULL,NULL,NULL,NULL
+ProductModel,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductModel,Name,,NULL,NULL,NULL,NULL
+ProductModel,ProductModelID,Primary Key,PK_ProductModel_ProductModelID,NULL,NULL,NULL
+ProductModel,rowguid,,NULL,NULL,NULL,NULL
+ProductModelIllustration,IllustrationID,Primary Key,PK_ProductModelIllustration_ProductModelID_IllustrationID,FK_ProductModelIllustration_Illustration_IllustrationID,Illustration,IllustrationID
+ProductModelIllustration,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductModelIllustration,ProductModelID,Primary Key,PK_ProductModelIllustration_ProductModelID_IllustrationID,FK_ProductModelIllustration_ProductModel_ProductModelID,ProductModel,ProductModelID
+ProductModelProductDescriptionCulture,CultureID,Primary Key,PK_ProductModelProductDescriptionCulture_ProductModelID_ProductDescriptionID_CultureID,FK_ProductModelProductDescriptionCulture_Culture_CultureID,Culture,CultureID
+ProductModelProductDescriptionCulture,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductModelProductDescriptionCulture,ProductDescriptionID,Primary Key,PK_ProductModelProductDescriptionCulture_ProductModelID_ProductDescriptionID_CultureID,FK_ProductModelProductDescriptionCulture_ProductDescription_ProductDescriptionID,ProductDescription,ProductDescriptionID
+ProductModelProductDescriptionCulture,ProductModelID,Primary Key,PK_ProductModelProductDescriptionCulture_ProductModelID_ProductDescriptionID_CultureID,FK_ProductModelProductDescriptionCulture_ProductModel_ProductModelID,ProductModel,ProductModelID
+ProductPhoto,LargePhoto,,NULL,NULL,NULL,NULL
+ProductPhoto,LargePhotoFileName,,NULL,NULL,NULL,NULL
+ProductPhoto,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductPhoto,ProductPhotoID,Primary Key,PK_ProductPhoto_ProductPhotoID,NULL,NULL,NULL
+ProductPhoto,ThumbNailPhoto,,NULL,NULL,NULL,NULL
+ProductPhoto,ThumbnailPhotoFileName,,NULL,NULL,NULL,NULL
+ProductProductPhoto,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductProductPhoto,Primary,,NULL,NULL,NULL,NULL
+ProductProductPhoto,ProductID,Primary Key,PK_ProductProductPhoto_ProductID_ProductPhotoID,FK_ProductProductPhoto_Product_ProductID,Product,ProductID
+ProductProductPhoto,ProductPhotoID,Primary Key,PK_ProductProductPhoto_ProductID_ProductPhotoID,FK_ProductProductPhoto_ProductPhoto_ProductPhotoID,ProductPhoto,ProductPhotoID
+ProductReview,Comments,,NULL,NULL,NULL,NULL
+ProductReview,EmailAddress,,NULL,NULL,NULL,NULL
+ProductReview,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductReview,ProductID,,NULL,FK_ProductReview_Product_ProductID,Product,ProductID
+ProductReview,ProductReviewID,Primary Key,PK_ProductReview_ProductReviewID,NULL,NULL,NULL
+ProductReview,Rating,,NULL,NULL,NULL,NULL
+ProductReview,ReviewDate,,NULL,NULL,NULL,NULL
+ProductReview,ReviewerName,,NULL,NULL,NULL,NULL
+ProductSubcategory,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductSubcategory,Name,,NULL,NULL,NULL,NULL
+ProductSubcategory,ProductCategoryID,,NULL,FK_ProductSubcategory_ProductCategory_ProductCategoryID,ProductCategory,ProductCategoryID
+ProductSubcategory,ProductSubcategoryID,Primary Key,PK_ProductSubcategory_ProductSubcategoryID,NULL,NULL,NULL
+ProductSubcategory,rowguid,,NULL,NULL,NULL,NULL
+ProductVendor,AverageLeadTime,,NULL,NULL,NULL,NULL
+ProductVendor,BusinessEntityID,,NULL,FK_ProductVendor_Vendor_BusinessEntityID,Vendor,BusinessEntityID
+ProductVendor,BusinessEntityID,Primary Key,PK_ProductVendor_ProductID_BusinessEntityID,FK_ProductVendor_Vendor_BusinessEntityID,Vendor,BusinessEntityID
+ProductVendor,LastReceiptCost,,NULL,NULL,NULL,NULL
+ProductVendor,LastReceiptDate,,NULL,NULL,NULL,NULL
+ProductVendor,MaxOrderQty,,NULL,NULL,NULL,NULL
+ProductVendor,MinOrderQty,,NULL,NULL,NULL,NULL
+ProductVendor,ModifiedDate,,NULL,NULL,NULL,NULL
+ProductVendor,OnOrderQty,,NULL,NULL,NULL,NULL
+ProductVendor,ProductID,Primary Key,PK_ProductVendor_ProductID_BusinessEntityID,FK_ProductVendor_Product_ProductID,Product,ProductID
+ProductVendor,StandardPrice,,NULL,NULL,NULL,NULL
+ProductVendor,UnitMeasureCode,,NULL,FK_ProductVendor_UnitMeasure_UnitMeasureCode,UnitMeasure,UnitMeasureCode
+PurchaseOrderDetail,DueDate,,NULL,NULL,NULL,NULL
+PurchaseOrderDetail,LineTotal,,NULL,NULL,NULL,NULL
+PurchaseOrderDetail,ModifiedDate,,NULL,NULL,NULL,NULL
+PurchaseOrderDetail,OrderQty,,NULL,NULL,NULL,NULL
+PurchaseOrderDetail,ProductID,,NULL,FK_PurchaseOrderDetail_Product_ProductID,Product,ProductID
+PurchaseOrderDetail,PurchaseOrderDetailID,Primary Key,PK_PurchaseOrderDetail_PurchaseOrderID_PurchaseOrderDetailID,NULL,NULL,NULL
+PurchaseOrderDetail,PurchaseOrderID,Primary Key,PK_PurchaseOrderDetail_PurchaseOrderID_PurchaseOrderDetailID,FK_PurchaseOrderDetail_PurchaseOrderHeader_PurchaseOrderID,PurchaseOrderHeader,PurchaseOrderID
+PurchaseOrderDetail,ReceivedQty,,NULL,NULL,NULL,NULL
+PurchaseOrderDetail,RejectedQty,,NULL,NULL,NULL,NULL
+PurchaseOrderDetail,StockedQty,,NULL,NULL,NULL,NULL
+PurchaseOrderDetail,UnitPrice,,NULL,NULL,NULL,NULL
+PurchaseOrderHeader,EmployeeID,,NULL,FK_PurchaseOrderHeader_Employee_EmployeeID,Employee,BusinessEntityID
+PurchaseOrderHeader,Freight,,NULL,NULL,NULL,NULL
+PurchaseOrderHeader,ModifiedDate,,NULL,NULL,NULL,NULL
+PurchaseOrderHeader,OrderDate,,NULL,NULL,NULL,NULL
+PurchaseOrderHeader,PurchaseOrderID,Primary Key,PK_PurchaseOrderHeader_PurchaseOrderID,NULL,NULL,NULL
+PurchaseOrderHeader,RevisionNumber,,NULL,NULL,NULL,NULL
+PurchaseOrderHeader,ShipDate,,NULL,NULL,NULL,NULL
+PurchaseOrderHeader,ShipMethodID,,NULL,FK_PurchaseOrderHeader_ShipMethod_ShipMethodID,ShipMethod,ShipMethodID
+PurchaseOrderHeader,Status,,NULL,NULL,NULL,NULL
+PurchaseOrderHeader,SubTotal,,NULL,NULL,NULL,NULL
+PurchaseOrderHeader,TaxAmt,,NULL,NULL,NULL,NULL
+PurchaseOrderHeader,TotalDue,,NULL,NULL,NULL,NULL
+PurchaseOrderHeader,VendorID,,NULL,FK_PurchaseOrderHeader_Vendor_VendorID,Vendor,BusinessEntityID
+SalesOrderDetail,CarrierTrackingNumber,,NULL,NULL,NULL,NULL
+SalesOrderDetail,LineTotal,,NULL,NULL,NULL,NULL
+SalesOrderDetail,ModifiedDate,,NULL,NULL,NULL,NULL
+SalesOrderDetail,OrderQty,,NULL,NULL,NULL,NULL
+SalesOrderDetail,ProductID,,NULL,FK_SalesOrderDetail_SpecialOfferProduct_SpecialOfferIDProductID,SpecialOfferProduct,ProductID
+SalesOrderDetail,rowguid,,NULL,NULL,NULL,NULL
+SalesOrderDetail,SalesOrderDetailID,Primary Key,PK_SalesOrderDetail_SalesOrderID_SalesOrderDetailID,NULL,NULL,NULL
+SalesOrderDetail,SalesOrderID,Primary Key,PK_SalesOrderDetail_SalesOrderID_SalesOrderDetailID,FK_SalesOrderDetail_SalesOrderHeader_SalesOrderID,SalesOrderHeader,SalesOrderID
+SalesOrderDetail,SpecialOfferID,,NULL,FK_SalesOrderDetail_SpecialOfferProduct_SpecialOfferIDProductID,SpecialOfferProduct,SpecialOfferID
+SalesOrderDetail,UnitPrice,,NULL,NULL,NULL,NULL
+SalesOrderDetail,UnitPriceDiscount,,NULL,NULL,NULL,NULL
+SalesOrderHeader,AccountNumber,,NULL,NULL,NULL,NULL
+SalesOrderHeader,BillToAddressID,,NULL,FK_SalesOrderHeader_Address_BillToAddressID,Address,AddressID
+SalesOrderHeader,Comment,,NULL,NULL,NULL,NULL
+SalesOrderHeader,CreditCardApprovalCode,,NULL,NULL,NULL,NULL
+SalesOrderHeader,CreditCardID,,NULL,FK_SalesOrderHeader_CreditCard_CreditCardID,CreditCard,CreditCardID
+SalesOrderHeader,CurrencyRateID,,NULL,FK_SalesOrderHeader_CurrencyRate_CurrencyRateID,CurrencyRate,CurrencyRateID
+SalesOrderHeader,CustomerID,,NULL,FK_SalesOrderHeader_Customer_CustomerID,Customer,CustomerID
+SalesOrderHeader,DueDate,,NULL,NULL,NULL,NULL
+SalesOrderHeader,Freight,,NULL,NULL,NULL,NULL
+SalesOrderHeader,ModifiedDate,,NULL,NULL,NULL,NULL
+SalesOrderHeader,OnlineOrderFlag,,NULL,NULL,NULL,NULL
+SalesOrderHeader,OrderDate,,NULL,NULL,NULL,NULL
+SalesOrderHeader,PurchaseOrderNumber,,NULL,NULL,NULL,NULL
+SalesOrderHeader,RevisionNumber,,NULL,NULL,NULL,NULL
+SalesOrderHeader,rowguid,,NULL,NULL,NULL,NULL
+SalesOrderHeader,SalesOrderID,Primary Key,PK_SalesOrderHeader_SalesOrderID,NULL,NULL,NULL
+SalesOrderHeader,SalesOrderNumber,,NULL,NULL,NULL,NULL
+SalesOrderHeader,SalesPersonID,,NULL,FK_SalesOrderHeader_SalesPerson_SalesPersonID,SalesPerson,BusinessEntityID
+SalesOrderHeader,ShipDate,,NULL,NULL,NULL,NULL
+SalesOrderHeader,ShipMethodID,,NULL,FK_SalesOrderHeader_ShipMethod_ShipMethodID,ShipMethod,ShipMethodID
+SalesOrderHeader,ShipToAddressID,,NULL,FK_SalesOrderHeader_Address_ShipToAddressID,Address,AddressID
+SalesOrderHeader,Status,,NULL,NULL,NULL,NULL
+SalesOrderHeader,SubTotal,,NULL,NULL,NULL,NULL
+SalesOrderHeader,TaxAmt,,NULL,NULL,NULL,NULL
+SalesOrderHeader,TerritoryID,,NULL,FK_SalesOrderHeader_SalesTerritory_TerritoryID,SalesTerritory,TerritoryID
+SalesOrderHeader,TotalDue,,NULL,NULL,NULL,NULL
+SalesOrderHeaderSalesReason,ModifiedDate,,NULL,NULL,NULL,NULL
+SalesOrderHeaderSalesReason,SalesOrderID,Primary Key,PK_SalesOrderHeaderSalesReason_SalesOrderID_SalesReasonID,FK_SalesOrderHeaderSalesReason_SalesOrderHeader_SalesOrderID,SalesOrderHeader,SalesOrderID
+SalesOrderHeaderSalesReason,SalesReasonID,Primary Key,PK_SalesOrderHeaderSalesReason_SalesOrderID_SalesReasonID,FK_SalesOrderHeaderSalesReason_SalesReason_SalesReasonID,SalesReason,SalesReasonID
+SalesPerson,Bonus,,NULL,NULL,NULL,NULL
+SalesPerson,BusinessEntityID,Primary Key,PK_SalesPerson_BusinessEntityID,FK_SalesPerson_Employee_BusinessEntityID,Employee,BusinessEntityID
+SalesPerson,CommissionPct,,NULL,NULL,NULL,NULL
+SalesPerson,ModifiedDate,,NULL,NULL,NULL,NULL
+SalesPerson,rowguid,,NULL,NULL,NULL,NULL
+SalesPerson,SalesLastYear,,NULL,NULL,NULL,NULL
+SalesPerson,SalesQuota,,NULL,NULL,NULL,NULL
+SalesPerson,SalesYTD,,NULL,NULL,NULL,NULL
+SalesPerson,TerritoryID,,NULL,FK_SalesPerson_SalesTerritory_TerritoryID,SalesTerritory,TerritoryID
+SalesPersonQuotaHistory,BusinessEntityID,Primary Key,PK_SalesPersonQuotaHistory_BusinessEntityID_QuotaDate,FK_SalesPersonQuotaHistory_SalesPerson_BusinessEntityID,SalesPerson,BusinessEntityID
+SalesPersonQuotaHistory,ModifiedDate,,NULL,NULL,NULL,NULL
+SalesPersonQuotaHistory,QuotaDate,Primary Key,PK_SalesPersonQuotaHistory_BusinessEntityID_QuotaDate,NULL,NULL,NULL
+SalesPersonQuotaHistory,rowguid,,NULL,NULL,NULL,NULL
+SalesPersonQuotaHistory,SalesQuota,,NULL,NULL,NULL,NULL
+SalesReason,ModifiedDate,,NULL,NULL,NULL,NULL
+SalesReason,Name,,NULL,NULL,NULL,NULL
+SalesReason,ReasonType,,NULL,NULL,NULL,NULL
+SalesReason,SalesReasonID,Primary Key,PK_SalesReason_SalesReasonID,NULL,NULL,NULL
+SalesTaxRate,ModifiedDate,,NULL,NULL,NULL,NULL
+SalesTaxRate,Name,,NULL,NULL,NULL,NULL
+SalesTaxRate,rowguid,,NULL,NULL,NULL,NULL
+SalesTaxRate,SalesTaxRateID,Primary Key,PK_SalesTaxRate_SalesTaxRateID,NULL,NULL,NULL
+SalesTaxRate,StateProvinceID,,NULL,FK_SalesTaxRate_StateProvince_StateProvinceID,StateProvince,StateProvinceID
+SalesTaxRate,TaxRate,,NULL,NULL,NULL,NULL
+SalesTaxRate,TaxType,,NULL,NULL,NULL,NULL
+SalesTerritory,CostLastYear,,NULL,NULL,NULL,NULL
+SalesTerritory,CostYTD,,NULL,NULL,NULL,NULL
+SalesTerritory,CountryRegionCode,,NULL,FK_SalesTerritory_CountryRegion_CountryRegionCode,CountryRegion,CountryRegionCode
+SalesTerritory,Group,,NULL,NULL,NULL,NULL
+SalesTerritory,ModifiedDate,,NULL,NULL,NULL,NULL
+SalesTerritory,Name,,NULL,NULL,NULL,NULL
+SalesTerritory,rowguid,,NULL,NULL,NULL,NULL
+SalesTerritory,SalesLastYear,,NULL,NULL,NULL,NULL
+SalesTerritory,SalesYTD,,NULL,NULL,NULL,NULL
+SalesTerritory,TerritoryID,Primary Key,PK_SalesTerritory_TerritoryID,NULL,NULL,NULL
+SalesTerritoryHistory,BusinessEntityID,Primary Key,PK_SalesTerritoryHistory_BusinessEntityID_StartDate_TerritoryID,FK_SalesTerritoryHistory_SalesPerson_BusinessEntityID,SalesPerson,BusinessEntityID
+SalesTerritoryHistory,EndDate,,NULL,NULL,NULL,NULL
+SalesTerritoryHistory,ModifiedDate,,NULL,NULL,NULL,NULL
+SalesTerritoryHistory,rowguid,,NULL,NULL,NULL,NULL
+SalesTerritoryHistory,StartDate,Primary Key,PK_SalesTerritoryHistory_BusinessEntityID_StartDate_TerritoryID,NULL,NULL,NULL
+SalesTerritoryHistory,TerritoryID,Primary Key,PK_SalesTerritoryHistory_BusinessEntityID_StartDate_TerritoryID,FK_SalesTerritoryHistory_SalesTerritory_TerritoryID,SalesTerritory,TerritoryID
+ScrapReason,ModifiedDate,,NULL,NULL,NULL,NULL
+ScrapReason,Name,,NULL,NULL,NULL,NULL
+ScrapReason,ScrapReasonID,Primary Key,PK_ScrapReason_ScrapReasonID,NULL,NULL,NULL
+Shift,EndTime,,NULL,NULL,NULL,NULL
+Shift,ModifiedDate,,NULL,NULL,NULL,NULL
+Shift,Name,,NULL,NULL,NULL,NULL
+Shift,ShiftID,Primary Key,PK_Shift_ShiftID,NULL,NULL,NULL
+Shift,StartTime,,NULL,NULL,NULL,NULL
+ShipMethod,ModifiedDate,,NULL,NULL,NULL,NULL
+ShipMethod,Name,,NULL,NULL,NULL,NULL
+ShipMethod,rowguid,,NULL,NULL,NULL,NULL
+ShipMethod,ShipBase,,NULL,NULL,NULL,NULL
+ShipMethod,ShipMethodID,Primary Key,PK_ShipMethod_ShipMethodID,NULL,NULL,NULL
+ShipMethod,ShipRate,,NULL,NULL,NULL,NULL
+ShoppingCartItem,DateCreated,,NULL,NULL,NULL,NULL
+ShoppingCartItem,ModifiedDate,,NULL,NULL,NULL,NULL
+ShoppingCartItem,ProductID,,NULL,FK_ShoppingCartItem_Product_ProductID,Product,ProductID
+ShoppingCartItem,Quantity,,NULL,NULL,NULL,NULL
+ShoppingCartItem,ShoppingCartID,,NULL,NULL,NULL,NULL
+ShoppingCartItem,ShoppingCartItemID,Primary Key,PK_ShoppingCartItem_ShoppingCartItemID,NULL,NULL,NULL
+SpecialOffer,Category,,NULL,NULL,NULL,NULL
+SpecialOffer,Description,,NULL,NULL,NULL,NULL
+SpecialOffer,DiscountPct,,NULL,NULL,NULL,NULL
+SpecialOffer,EndDate,,NULL,NULL,NULL,NULL
+SpecialOffer,MaxQty,,NULL,NULL,NULL,NULL
+SpecialOffer,MinQty,,NULL,NULL,NULL,NULL
+SpecialOffer,ModifiedDate,,NULL,NULL,NULL,NULL
+SpecialOffer,rowguid,,NULL,NULL,NULL,NULL
+SpecialOffer,SpecialOfferID,Primary Key,PK_SpecialOffer_SpecialOfferID,NULL,NULL,NULL
+SpecialOffer,StartDate,,NULL,NULL,NULL,NULL
+SpecialOffer,Type,,NULL,NULL,NULL,NULL
+SpecialOfferProduct,ModifiedDate,,NULL,NULL,NULL,NULL
+SpecialOfferProduct,ProductID,,NULL,FK_SpecialOfferProduct_Product_ProductID,Product,ProductID
+SpecialOfferProduct,ProductID,Primary Key,PK_SpecialOfferProduct_SpecialOfferID_ProductID,FK_SpecialOfferProduct_Product_ProductID,Product,ProductID
+SpecialOfferProduct,rowguid,,NULL,NULL,NULL,NULL
+SpecialOfferProduct,SpecialOfferID,Primary Key,PK_SpecialOfferProduct_SpecialOfferID_ProductID,FK_SpecialOfferProduct_SpecialOffer_SpecialOfferID,SpecialOffer,SpecialOfferID
+StateProvince,CountryRegionCode,,NULL,FK_StateProvince_CountryRegion_CountryRegionCode,CountryRegion,CountryRegionCode
+StateProvince,IsOnlyStateProvinceFlag,,NULL,NULL,NULL,NULL
+StateProvince,ModifiedDate,,NULL,NULL,NULL,NULL
+StateProvince,Name,,NULL,NULL,NULL,NULL
+StateProvince,rowguid,,NULL,NULL,NULL,NULL
+StateProvince,StateProvinceCode,,NULL,NULL,NULL,NULL
+StateProvince,StateProvinceID,Primary Key,PK_StateProvince_StateProvinceID,NULL,NULL,NULL
+StateProvince,TerritoryID,,NULL,FK_StateProvince_SalesTerritory_TerritoryID,SalesTerritory,TerritoryID
+Store,BusinessEntityID,Primary Key,PK_Store_BusinessEntityID,FK_Store_BusinessEntity_BusinessEntityID,BusinessEntity,BusinessEntityID
+Store,Demographics,,NULL,NULL,NULL,NULL
+Store,ModifiedDate,,NULL,NULL,NULL,NULL
+Store,Name,,NULL,NULL,NULL,NULL
+Store,rowguid,,NULL,NULL,NULL,NULL
+Store,SalesPersonID,,NULL,FK_Store_SalesPerson_SalesPersonID,SalesPerson,BusinessEntityID
+TransactionHistory,ActualCost,,NULL,NULL,NULL,NULL
+TransactionHistory,ModifiedDate,,NULL,NULL,NULL,NULL
+TransactionHistory,ProductID,,NULL,FK_TransactionHistory_Product_ProductID,Product,ProductID
+TransactionHistory,Quantity,,NULL,NULL,NULL,NULL
+TransactionHistory,ReferenceOrderID,,NULL,NULL,NULL,NULL
+TransactionHistory,ReferenceOrderLineID,,NULL,NULL,NULL,NULL
+TransactionHistory,TransactionDate,,NULL,NULL,NULL,NULL
+TransactionHistory,TransactionID,Primary Key,PK_TransactionHistory_TransactionID,NULL,NULL,NULL
+TransactionHistory,TransactionType,,NULL,NULL,NULL,NULL
+TransactionHistoryArchive,ActualCost,,NULL,NULL,NULL,NULL
+TransactionHistoryArchive,ModifiedDate,,NULL,NULL,NULL,NULL
+TransactionHistoryArchive,ProductID,,NULL,NULL,NULL,NULL
+TransactionHistoryArchive,Quantity,,NULL,NULL,NULL,NULL
+TransactionHistoryArchive,ReferenceOrderID,,NULL,NULL,NULL,NULL
+TransactionHistoryArchive,ReferenceOrderLineID,,NULL,NULL,NULL,NULL
+TransactionHistoryArchive,TransactionDate,,NULL,NULL,NULL,NULL
+TransactionHistoryArchive,TransactionID,Primary Key,PK_TransactionHistoryArchive_TransactionID,NULL,NULL,NULL
+TransactionHistoryArchive,TransactionType,,NULL,NULL,NULL,NULL
+UnitMeasure,ModifiedDate,,NULL,NULL,NULL,NULL
+UnitMeasure,Name,,NULL,NULL,NULL,NULL
+UnitMeasure,UnitMeasureCode,Primary Key,PK_UnitMeasure_UnitMeasureCode,NULL,NULL,NULL
+Vendor,AccountNumber,,NULL,NULL,NULL,NULL
+Vendor,ActiveFlag,,NULL,NULL,NULL,NULL
+Vendor,BusinessEntityID,Primary Key,PK_Vendor_BusinessEntityID,FK_Vendor_BusinessEntity_BusinessEntityID,BusinessEntity,BusinessEntityID
+Vendor,CreditRating,,NULL,NULL,NULL,NULL
+Vendor,ModifiedDate,,NULL,NULL,NULL,NULL
+Vendor,Name,,NULL,NULL,NULL,NULL
+Vendor,PreferredVendorStatus,,NULL,NULL,NULL,NULL
+Vendor,PurchasingWebServiceURL,,NULL,NULL,NULL,NULL
+WorkOrder,DueDate,,NULL,NULL,NULL,NULL
+WorkOrder,EndDate,,NULL,NULL,NULL,NULL
+WorkOrder,ModifiedDate,,NULL,NULL,NULL,NULL
+WorkOrder,OrderQty,,NULL,NULL,NULL,NULL
+WorkOrder,ProductID,,NULL,FK_WorkOrder_Product_ProductID,Product,ProductID
+WorkOrder,ScrappedQty,,NULL,NULL,NULL,NULL
+WorkOrder,ScrapReasonID,,NULL,FK_WorkOrder_ScrapReason_ScrapReasonID,ScrapReason,ScrapReasonID
+WorkOrder,StartDate,,NULL,NULL,NULL,NULL
+WorkOrder,StockedQty,,NULL,NULL,NULL,NULL
+WorkOrder,WorkOrderID,Primary Key,PK_WorkOrder_WorkOrderID,NULL,NULL,NULL
+WorkOrderRouting,ActualCost,,NULL,NULL,NULL,NULL
+WorkOrderRouting,ActualEndDate,,NULL,NULL,NULL,NULL
+WorkOrderRouting,ActualResourceHrs,,NULL,NULL,NULL,NULL
+WorkOrderRouting,ActualStartDate,,NULL,NULL,NULL,NULL
+WorkOrderRouting,LocationID,,NULL,FK_WorkOrderRouting_Location_LocationID,Location,LocationID
+WorkOrderRouting,ModifiedDate,,NULL,NULL,NULL,NULL
+WorkOrderRouting,OperationSequence,Primary Key,PK_WorkOrderRouting_WorkOrderID_ProductID_OperationSequence,NULL,NULL,NULL
+WorkOrderRouting,PlannedCost,,NULL,NULL,NULL,NULL
+WorkOrderRouting,ProductID,,NULL,NULL,NULL,NULL
+WorkOrderRouting,ProductID,Primary Key,PK_WorkOrderRouting_WorkOrderID_ProductID_OperationSequence,NULL,NULL,NULL
+WorkOrderRouting,ScheduledEndDate,,NULL,NULL,NULL,NULL
+WorkOrderRouting,ScheduledStartDate,,NULL,NULL,NULL,NULL
+WorkOrderRouting,WorkOrderID,Primary Key,PK_WorkOrderRouting_WorkOrderID_ProductID_OperationSequence,FK_WorkOrderRouting_WorkOrder_WorkOrderID,WorkOrder,WorkOrderID

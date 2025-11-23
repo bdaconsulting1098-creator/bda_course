@@ -1,0 +1,1001 @@
+post_id,user_id,datetime,text
+403021,89253200,12/7/2019 9:10,"Morbi ac quam tincidunt, iaculis lectus ut, molestie felis."
+403022,41315375,12/7/2019 9:12,Praesent auctor nisi sed enim ornare porta.
+403023,12115762,12/7/2019 9:14,Morbi et neque et turpis laoreet suscipit.
+403024,41315375,12/7/2019 9:16,Nam at orci a turpis laoreet porttitor non et arcu.
+403025,41932907,12/7/2019 9:20,"Vivamus suscipit nunc a dui fermentum, eget efficitur sem commodo."
+403026,60434693,12/7/2019 9:21,Cras vitae massa a dolor tincidunt ultrices.
+403027,41083501,12/7/2019 9:22,Nullam id turpis ut arcu blandit posuere blandit a leo.
+403028,41932907,12/7/2019 9:23,Mauris rutrum odio non turpis vehicula aliquam.
+403029,22830391,12/7/2019 9:26,Aliquam tincidunt dui et nibh sollicitudin imperdiet.
+403030,89253200,12/7/2019 9:27,In interdum mi a augue iaculis maximus.
+403031,31984188,12/7/2019 9:30,Nulla vel purus vitae nisi ornare mattis.
+403032,79583157,12/7/2019 9:33,Sed fermentum neque quis sem imperdiet ultricies.
+403033,47529561,12/7/2019 9:34,Proin feugiat metus mattis blandit tincidunt.
+403034,88594698,12/7/2019 9:36,"Quisque imperdiet nisi sed arcu elementum, eu lacinia nisl vulputate."
+403035,42852269,12/7/2019 9:40,"Morbi in neque pellentesque, porta orci in, condimentum quam."
+403036,12475863,12/7/2019 9:44,"Fusce fermentum nisi vitae ex mattis, et ultricies est rutrum."
+403037,96037833,12/7/2019 9:47,Sed sodales turpis nec nibh fringilla scelerisque.
+403038,49925123,12/7/2019 9:48,"Sed suscipit leo consequat sapien bibendum, quis gravida lorem pharetra."
+403039,50674807,12/7/2019 9:50,"Sed quis magna dictum, commodo sapien ac, efficitur mi."
+403040,96037833,12/7/2019 9:51,"Vestibulum a arcu viverra, fringilla ante eu, hendrerit augue."
+403041,86960861,12/7/2019 9:55,Vivamus volutpat neque et lacus pretium egestas eget ut neque.
+403042,50674807,12/7/2019 9:55,Ut eu lacus eget quam faucibus congue.
+403043,2398742,12/7/2019 9:59,Nam at dui et sem varius euismod nec at orci.
+403044,9567273,12/7/2019 9:59,"Quisque eu leo consectetur, viverra justo sit amet, ornare metus."
+403045,94832806,12/7/2019 10:00,"Proin elementum risus vitae libero convallis, in posuere enim imperdiet."
+403046,11482505,12/7/2019 10:01,Duis vel quam vitae turpis interdum egestas ut ac velit.
+403047,47529561,12/7/2019 10:01,Etiam congue urna vitae lectus fermentum auctor.
+403048,52737281,12/7/2019 10:02,Etiam at nisi sed nulla lacinia venenatis.
+403049,18918843,12/7/2019 10:03,"Pellentesque blandit mi sollicitudin orci pretium, eget mattis sem volutpat."
+403050,34052592,12/7/2019 10:04,Morbi volutpat lectus vitae imperdiet congue.
+403051,6898742,12/7/2019 10:07,"Maecenas a velit gravida, accumsan dolor sed, vehicula dolor."
+403052,88594698,12/7/2019 10:09,Donec volutpat mi non lorem pellentesque condimentum.
+403053,50674807,12/7/2019 10:10,"Praesent varius lectus sit amet arcu facilisis, in mattis lorem lobortis."
+403054,75564462,12/7/2019 10:13,Vivamus non enim ac erat lacinia efficitur ut fermentum ante.
+403055,31632805,12/7/2019 10:16,Integer fringilla lectus sit amet tortor imperdiet eleifend.
+403056,34052592,12/7/2019 10:17,Integer efficitur ligula ac bibendum suscipit.
+403057,6898742,12/7/2019 10:21,"Nunc mollis libero vel tortor gravida, vel hendrerit arcu finibus."
+403058,54120190,12/7/2019 10:24,"Nunc sed est fringilla, efficitur eros molestie, dictum ipsum."
+403059,34052592,12/7/2019 10:28,"Vestibulum convallis justo eu sem facilisis, quis laoreet orci sollicitudin."
+403060,22830391,12/7/2019 10:30,Donec scelerisque felis egestas laoreet molestie.
+403061,2398742,12/7/2019 10:32,Donec scelerisque tellus ut ligula convallis luctus.
+403062,96379267,12/7/2019 10:35,"Vivamus eu libero pulvinar, commodo lectus a, egestas ligula."
+403063,80605391,12/7/2019 10:36,Maecenas malesuada sem nec molestie tempor.
+403064,6898742,12/7/2019 10:39,Duis tristique tortor at arcu varius fermentum.
+403065,2398742,12/7/2019 10:43,Nullam molestie justo eu malesuada vestibulum.
+403066,75564462,12/7/2019 10:43,Praesent sagittis erat ut tempor ullamcorper.
+403067,52096481,12/7/2019 10:45,"Suspendisse at dolor blandit, aliquet enim at, placerat nisl."
+403068,6988481,12/7/2019 10:46,Sed efficitur augue ac accumsan gravida.
+403069,42852269,12/7/2019 10:47,"Mauris venenatis magna at massa efficitur, ut semper neque commodo."
+403070,94761749,12/7/2019 10:48,"Mauris lacinia dui non ex tempus, et porta ex pretium."
+403071,10993170,12/7/2019 10:50,Nam imperdiet orci ut mattis porta.
+403072,99468227,12/7/2019 10:54,Cras finibus dolor at tellus vehicula fermentum.
+403073,12475863,12/7/2019 10:56,Etiam quis ligula sed massa imperdiet suscipit.
+403074,96864510,12/7/2019 10:59,Duis quis dolor eget ante bibendum congue quis id neque.
+403075,11482505,12/7/2019 11:01,Suspendisse non orci ac neque pretium maximus in sed est.
+403076,82836366,12/7/2019 11:02,"Cras laoreet nunc eget massa finibus, dictum tincidunt velit hendrerit."
+403077,85029242,12/7/2019 11:05,"Quisque non urna molestie, viverra tortor a, congue leo."
+403078,88594698,12/7/2019 11:09,"Nam a erat vehicula, condimentum ex et, eleifend urna."
+403079,5068480,12/7/2019 11:13,"Etiam vel diam suscipit, rhoncus sapien at, vestibulum quam."
+403080,47722299,12/7/2019 11:17,Pellentesque vel elit eleifend felis mollis maximus non eget nulla.
+403081,82836366,12/7/2019 11:20,Maecenas quis nisi sed odio pulvinar maximus.
+403082,86960861,12/7/2019 11:23,Praesent fringilla velit eu magna eleifend blandit.
+403083,75564462,12/7/2019 11:26,Ut molestie urna eu facilisis ultrices.
+403084,52737281,12/7/2019 11:27,Suspendisse vitae massa a elit pulvinar aliquam.
+403085,47722299,12/7/2019 11:30,Proin sit amet diam in lacus consectetur tincidunt.
+403086,2398742,12/7/2019 11:33,Integer at sem ac metus pulvinar fermentum sed in leo.
+403087,99468227,12/7/2019 11:37,"Donec maximus lorem ac metus dictum, at egestas sem commodo."
+403088,12115762,12/7/2019 11:38,Etiam ut diam sed risus varius sagittis.
+403089,2398742,12/7/2019 11:42,Donec dignissim turpis ut dignissim venenatis.
+403090,75564462,12/7/2019 11:43,Aenean scelerisque erat quis nulla feugiat sagittis.
+403091,52096481,12/7/2019 11:46,Etiam dictum sapien lacinia posuere imperdiet.
+403092,34052592,12/7/2019 11:47,Mauris quis dui quis ligula egestas tempus.
+403093,41315375,12/7/2019 11:47,Etiam sit amet elit a libero sodales feugiat.
+403094,18918843,12/7/2019 11:51,"Nulla faucibus ipsum non diam scelerisque, id imperdiet lectus viverra."
+403095,6988481,12/7/2019 11:55,"Vivamus mollis sapien et ante sagittis, sit amet finibus odio suscipit."
+403096,94832806,12/7/2019 11:59,Vivamus ornare justo sed aliquet interdum.
+403097,50674807,12/7/2019 12:03,Ut sollicitudin risus a dui hendrerit hendrerit non eleifend erat.
+403098,60434693,12/7/2019 12:06,Nulla auctor neque sit amet consectetur feugiat.
+403099,12115762,12/7/2019 12:08,"Maecenas rhoncus orci eu tortor tempor, ut interdum orci dignissim."
+403100,96864510,12/7/2019 12:11,Vivamus aliquet diam ut odio tincidunt sollicitudin.
+403101,99468227,12/7/2019 12:13,Nunc iaculis justo ut urna malesuada commodo.
+403102,82836366,12/7/2019 12:16,Maecenas vel sapien nec ex pulvinar luctus.
+403103,79583157,12/7/2019 12:18,Donec fermentum sapien id metus feugiat mollis.
+403104,94832806,12/7/2019 12:20,Nulla ut justo vitae erat imperdiet dapibus sit amet ultrices nisl.
+403105,99468227,12/7/2019 12:23,Fusce blandit justo faucibus lobortis eleifend.
+403106,82836366,12/7/2019 12:25,"Aliquam porttitor ex ac nisl pellentesque, vitae posuere nibh pulvinar."
+403107,11482505,12/7/2019 12:28,Aenean a sapien eget dolor maximus feugiat nec sit amet metus.
+403108,86960861,12/7/2019 12:28,"Sed non augue maximus, ultricies odio vel, suscipit orci."
+403109,96864510,12/7/2019 12:30,"Quisque maximus ex ut ipsum aliquet, id gravida turpis interdum."
+403110,42856766,12/7/2019 12:32,Fusce placerat arcu tincidunt justo consectetur gravida.
+403111,6988481,12/7/2019 12:35,Donec malesuada neque a sagittis ultricies.
+403112,9567273,12/7/2019 12:38,Nunc posuere mi in rhoncus aliquet.
+403113,80605391,12/7/2019 12:42,In sed sapien sit amet mi porta scelerisque non id nunc.
+403114,34305933,12/7/2019 12:43,"Fusce sed eros gravida, bibendum leo sit amet, malesuada urna."
+403115,2398742,12/7/2019 12:44,Vestibulum sed sapien et risus facilisis maximus.
+403116,96037833,12/7/2019 12:46,"Etiam vel dolor gravida, bibendum erat nec, placerat quam."
+403117,2398742,12/7/2019 12:49,"Praesent id nisl sagittis, pellentesque magna et, dapibus nisi."
+403118,6988481,12/7/2019 12:51,Phasellus commodo sem id ultrices cursus.
+403119,99468227,12/7/2019 12:51,Quisque nec nisi pretium sem varius euismod eu in felis.
+403120,40140169,12/7/2019 12:53,"Etiam ut nunc vestibulum, aliquet felis eu, scelerisque ligula."
+403121,31984188,12/7/2019 12:56,"Sed eget sem vulputate, luctus nibh vel, porttitor massa."
+403122,52737281,12/7/2019 12:56,Vivamus ut nunc eget mi rhoncus posuere eu eu justo.
+403123,52737281,12/7/2019 12:57,Maecenas nec orci ut felis porttitor rutrum ut quis velit.
+403124,31632805,12/7/2019 12:58,Donec dapibus purus in urna dictum semper.
+403125,40140169,12/7/2019 13:02,"Cras nec turpis fringilla, rhoncus mi eget, malesuada augue."
+403126,42852269,12/7/2019 13:04,Proin tristique est sed nunc bibendum ultricies.
+403127,60434693,12/7/2019 13:05,Sed pellentesque turpis a sodales convallis.
+403128,99468227,12/7/2019 13:09,Pellentesque nec urna vel neque maximus commodo nec nec sapien.
+403129,96379267,12/7/2019 13:10,"Nullam quis lorem mattis, faucibus purus et, feugiat lectus."
+403130,96037833,12/7/2019 13:12,"Mauris bibendum nunc id nunc feugiat, vitae bibendum metus sagittis."
+403131,85029242,12/7/2019 13:15,"Sed in metus commodo, varius lectus non, sollicitudin ante."
+403132,18918843,12/7/2019 13:16,Mauris eu nunc vel est finibus bibendum eget sed sapien.
+403133,50674807,12/7/2019 13:18,Cras ultrices magna quis cursus efficitur.
+403134,96379267,12/7/2019 13:22,Nullam vehicula neque eget ante sodales porttitor.
+403135,22830391,12/7/2019 13:25,Aenean id lorem in nibh rutrum ultricies.
+403136,65276300,12/7/2019 13:27,Phasellus vestibulum felis in rutrum pellentesque.
+403137,52737281,12/7/2019 13:28,"Sed porta massa quis lectus interdum, sed convallis ipsum rutrum."
+403138,41083501,12/7/2019 13:29,"Aenean nec arcu pulvinar, bibendum arcu non, dapibus ligula."
+403139,34305933,12/7/2019 13:30,Vestibulum vehicula metus interdum felis rutrum volutpat.
+403140,92528433,12/7/2019 13:31,Proin at massa nec velit molestie commodo.
+403141,60434693,12/7/2019 13:34,"Nullam suscipit orci eu nibh pharetra, ac facilisis eros faucibus."
+403142,42852269,12/7/2019 13:37,"Fusce at augue ultrices, scelerisque eros in, aliquet orci."
+403143,75564462,12/7/2019 13:41,Praesent quis nisl et ex iaculis tempor sed nec lorem.
+403144,42852269,12/7/2019 13:43,Maecenas scelerisque nisl vel luctus imperdiet.
+403145,34052592,12/7/2019 13:47,Phasellus dignissim neque in dignissim aliquam.
+403146,82836366,12/7/2019 13:48,Duis sed nisl vulputate ante pulvinar accumsan.
+403147,31984188,12/7/2019 13:49,Donec eu purus quis sapien fermentum suscipit nec sed lectus.
+403148,65276300,12/7/2019 13:50,"Curabitur elementum eros sed orci luctus, in accumsan arcu dictum."
+403149,47529561,12/7/2019 13:51,Cras nec augue euismod urna pharetra fermentum eu a risus.
+403150,52737281,12/7/2019 13:53,"In eleifend ex sed neque auctor, quis blandit eros ullamcorper."
+403151,41083501,12/7/2019 13:55,Donec maximus sem consectetur lacinia porttitor.
+403152,92528433,12/7/2019 13:57,Donec dapibus tortor at odio egestas tempor.
+403153,10993170,12/7/2019 14:00,Morbi vehicula nisl sit amet sagittis convallis.
+403154,31632805,12/7/2019 14:03,Etiam dignissim dui quis metus vehicula luctus sit amet ac sapien.
+403155,99468227,12/7/2019 14:04,Nullam sit amet turpis ac urna congue maximus a ut erat.
+403156,49925123,12/7/2019 14:07,"Pellentesque vel lacus blandit, commodo ante eu, tempus massa."
+403157,18918843,12/7/2019 14:10,"Sed quis dui egestas, imperdiet lacus et, venenatis nibh."
+403158,85029242,12/7/2019 14:11,"Nulla tristique leo eu libero laoreet, in suscipit dui blandit."
+403159,12475863,12/7/2019 14:12,Quisque a odio nec dui tristique euismod quis vel elit.
+403160,12475863,12/7/2019 14:12,"Maecenas sagittis sem nec sem hendrerit, ut egestas diam varius."
+403161,42856766,12/7/2019 14:16,Mauris a odio id nibh imperdiet pretium in non ligula.
+403162,34305933,12/7/2019 14:18,Proin rhoncus dolor vel lobortis vulputate.
+403163,99468227,12/7/2019 14:20,Praesent auctor lorem id maximus iaculis.
+403164,34052592,12/7/2019 14:23,"Proin eget metus volutpat, sagittis sem quis, vestibulum erat."
+403165,2398742,12/7/2019 14:24,Aenean quis risus id nisl gravida vestibulum.
+403166,13758061,12/7/2019 14:26,Morbi non eros nec lorem fringilla vestibulum.
+403167,94832806,12/7/2019 14:30,Mauris at est vel ex consectetur ullamcorper sed eu velit.
+403168,52096481,12/7/2019 14:34,Aenean gravida tellus sit amet dapibus commodo.
+403169,9567273,12/7/2019 14:36,"Morbi a lacus finibus, sagittis arcu ac, convallis eros."
+403170,92528433,12/7/2019 14:40,"Proin et leo dictum, pharetra est a, suscipit risus."
+403171,31984188,12/7/2019 14:42,"Ut eu est interdum, congue nulla quis, hendrerit purus."
+403172,34052592,12/7/2019 14:44,"Sed interdum tellus malesuada sapien dapibus, finibus volutpat leo dictum."
+403173,60434693,12/7/2019 14:47,"Quisque imperdiet orci ut risus porta, at venenatis nisl lobortis."
+403174,65276300,12/7/2019 14:49,Integer vel ipsum eget est vestibulum euismod non ut magna.
+403175,6988481,12/7/2019 14:53,Aliquam ut est eu libero semper posuere varius vel ante.
+403176,96037833,12/7/2019 14:56,Sed et neque id felis sollicitudin ornare non ut urna.
+403177,12475863,12/7/2019 14:58,Aliquam semper dolor ac laoreet tempus.
+403178,42856766,12/7/2019 15:02,Mauris condimentum enim eu vehicula condimentum.
+403179,6898742,12/7/2019 15:03,Pellentesque quis massa venenatis urna feugiat hendrerit.
+403180,6898742,12/7/2019 15:03,Aliquam feugiat lectus vitae dui posuere gravida.
+403181,96864510,12/7/2019 15:04,Cras egestas nisl et dapibus faucibus.
+403182,85029242,12/7/2019 15:08,Cras nec est eget nisl cursus hendrerit.
+403183,13758061,12/7/2019 15:10,"Aenean at arcu consequat, gravida tortor in, rhoncus ipsum."
+403184,12115762,12/7/2019 15:14,Nulla nec nibh in neque vestibulum aliquam eget sed metus.
+403185,49925123,12/7/2019 15:15,"Fusce vitae ipsum eleifend, malesuada est vel, aliquam velit."
+403186,22830391,12/7/2019 15:18,Fusce eleifend justo ac tortor porttitor ornare.
+403187,65276300,12/7/2019 15:22,"Duis molestie diam eu lacus varius, eget sagittis ligula auctor."
+403188,50674807,12/7/2019 15:24,"Nullam mattis mi cursus, malesuada nibh pretium, dignissim sapien."
+403189,94761749,12/7/2019 15:27,Proin non mi a nibh tempus iaculis.
+403190,12475863,12/7/2019 15:28,Vestibulum vitae mauris sed turpis mattis euismod.
+403191,96379267,12/7/2019 15:29,Nulla congue tellus et sem ultricies venenatis.
+403192,96379267,12/7/2019 15:33,Fusce quis nunc sit amet augue tincidunt tempus.
+403193,31632805,12/7/2019 15:34,Vestibulum commodo mi ac gravida euismod.
+403194,22830391,12/7/2019 15:35,Vivamus feugiat urna sed cursus malesuada.
+403195,96864510,12/7/2019 15:38,Praesent mattis enim quis est bibendum venenatis.
+403196,54120190,12/7/2019 15:39,Integer sit amet leo et nisl laoreet faucibus.
+403197,47529561,12/7/2019 15:41,"Vestibulum rutrum purus in lacus pellentesque, et euismod tellus vehicula."
+403198,47529561,12/7/2019 15:45,Proin viverra sem sit amet faucibus euismod.
+403199,31984188,12/7/2019 15:46,Vivamus gravida sem et ornare venenatis.
+403200,6988481,12/7/2019 15:50,Cras quis arcu quis ipsum rhoncus elementum sit amet sit amet nulla.
+403201,11482505,12/7/2019 15:51,Nam mattis tortor a orci ornare posuere.
+403202,82836366,12/7/2019 15:55,Etiam at lectus ut lacus mattis venenatis.
+403203,31632805,12/7/2019 15:58,Duis ut neque ac diam eleifend faucibus at in massa.
+403204,96037833,12/7/2019 15:59,"Proin condimentum diam vel ipsum consectetur, id condimentum libero vestibulum."
+403205,85029242,12/7/2019 16:03,"Morbi vitae neque ornare, fermentum magna nec, viverra sem."
+403206,31632805,12/7/2019 16:07,Proin vitae libero sit amet libero pharetra porta et vitae dolor.
+403207,27116352,12/7/2019 16:07,Duis vitae velit eleifend enim bibendum tempor maximus in dui.
+403208,49925123,12/7/2019 16:08,Mauris sed quam sed sem convallis rhoncus.
+403209,27116352,12/7/2019 16:10,"Mauris id augue hendrerit, bibendum odio eget, facilisis diam."
+403210,27116352,12/7/2019 16:13,Etiam sagittis mi at lectus dignissim interdum.
+403211,88594698,12/7/2019 16:17,Vestibulum porta libero non nisl viverra tincidunt.
+403212,94832806,12/7/2019 16:21,Aliquam ultrices massa in tortor consequat efficitur.
+403213,42852269,12/7/2019 16:24,"Cras vel est pulvinar, venenatis dolor eget, blandit purus."
+403214,31632805,12/7/2019 16:25,Pellentesque iaculis magna id leo lacinia ultricies.
+403215,31632805,12/7/2019 16:27,"Etiam gravida sapien molestie ipsum pharetra, non pellentesque nunc facilisis."
+403216,94832806,12/7/2019 16:31,Sed ultrices dui id leo ultricies facilisis.
+403217,34305933,12/7/2019 16:32,Nullam ultricies orci et tincidunt maximus.
+403218,34052592,12/7/2019 16:36,"Fusce aliquet ipsum id erat fermentum, non tempus est rutrum."
+403219,92528433,12/7/2019 16:38,"Vestibulum suscipit odio quis dolor hendrerit, porttitor scelerisque lorem facilisis."
+403220,94832806,12/7/2019 16:42,"Morbi fringilla eros non velit consectetur, sed iaculis ligula lobortis."
+403221,11482505,12/7/2019 16:44,"Duis nec felis elementum, viverra odio et, pharetra tellus."
+403222,11482505,12/7/2019 16:46,"In nec erat iaculis, dignissim tortor at, fermentum tellus."
+403223,79583157,12/7/2019 16:48,Mauris dignissim libero non dictum pharetra.
+403224,18918843,12/7/2019 16:52,Sed eget est cursus arcu condimentum pretium.
+403225,88594698,12/7/2019 16:53,"Nulla vehicula justo a lorem euismod, quis lobortis diam efficitur."
+403226,30813422,12/7/2019 16:56,"In a nulla sagittis, accumsan magna sed, volutpat arcu."
+403227,86960861,12/7/2019 16:59,Duis pulvinar purus eu maximus dignissim.
+403228,40140169,12/7/2019 17:00,Donec quis risus non dolor dignissim porta.
+403229,86960861,12/7/2019 17:04,Proin aliquet tortor vitae purus convallis facilisis.
+403230,30813422,12/7/2019 17:07,Quisque in leo id justo feugiat pharetra quis sit amet justo.
+403231,99468227,12/7/2019 17:09,Nullam porttitor felis non orci sollicitudin tempus.
+403232,47722299,12/7/2019 17:12,Etiam condimentum eros id felis feugiat fringilla.
+403233,9567273,12/7/2019 17:15,Aliquam in justo at arcu interdum imperdiet.
+403234,31984188,12/7/2019 17:16,"Integer auctor lacus vel ligula dapibus, pulvinar ultricies orci elementum."
+403235,41083501,12/7/2019 17:17,"Curabitur sagittis odio sed est mattis, at auctor lacus condimentum."
+403236,42852269,12/7/2019 17:21,Cras fermentum felis id justo vulputate sagittis.
+403237,75564462,12/7/2019 17:22,Proin viverra urna eget lorem bibendum fermentum.
+403238,34305933,12/7/2019 17:23,Sed eu ex id turpis ullamcorper ornare eget ac dolor.
+403239,54120190,12/7/2019 17:26,Nunc vitae tortor sit amet urna interdum bibendum.
+403240,22830391,12/7/2019 17:30,Maecenas pulvinar turpis ut accumsan feugiat.
+403241,42856766,12/7/2019 17:31,In ut ex ut nisl viverra suscipit et quis neque.
+403242,65276300,12/7/2019 17:35,"In fermentum dolor facilisis eros aliquam, at gravida eros semper."
+403243,65276300,12/7/2019 17:37,"Curabitur ac ex aliquam, pulvinar ligula condimentum, accumsan turpis."
+403244,89253200,12/7/2019 17:39,"Nulla a lacus pulvinar, suscipit purus eget, mattis mi."
+403245,99468227,12/7/2019 17:41,Pellentesque posuere lacus vitae congue convallis.
+403246,52737281,12/7/2019 17:44,"Sed at justo efficitur, pretium sem id, convallis quam."
+403247,13758061,12/7/2019 17:47,"Phasellus imperdiet ante quis velit finibus, quis dapibus purus iaculis."
+403248,42856766,12/7/2019 17:49,Sed cursus justo in augue sollicitudin lobortis.
+403249,41315375,12/7/2019 17:51,"Phasellus mollis neque egestas, ornare nisl a, commodo justo."
+403250,6898742,12/7/2019 17:53,Donec viverra lacus sit amet ante eleifend vestibulum.
+403251,54120190,12/7/2019 17:56,Cras id dolor et augue auctor fermentum.
+403252,40140169,12/7/2019 17:59,Donec aliquet sapien quis metus fringilla euismod.
+403253,10993170,12/7/2019 17:59,"Praesent dignissim metus sit amet ipsum lacinia, sed porta ante pharetra."
+403254,40140169,12/7/2019 18:00,"Aliquam eu leo malesuada, volutpat sapien at, feugiat ante."
+403255,22830391,12/7/2019 18:04,Duis ullamcorper turpis ac lobortis rhoncus.
+403256,22830391,12/7/2019 18:05,Nulla nec urna nec ipsum elementum aliquam.
+403257,12475863,12/7/2019 18:05,"Duis ut dolor scelerisque, ornare sapien sed, mollis turpis."
+403258,85029242,12/7/2019 18:07,Pellentesque feugiat orci varius aliquam scelerisque.
+403259,41315375,12/7/2019 18:09,"In blandit urna consequat, viverra dui et, viverra risus."
+403260,50674807,12/7/2019 18:12,Vestibulum consectetur sapien a luctus accumsan.
+403261,99468227,12/7/2019 18:14,"Suspendisse eu turpis dictum, maximus mi a, porta turpis."
+403262,34052592,12/7/2019 18:16,"Suspendisse vitae diam semper, egestas tortor quis, dignissim mi."
+403263,65276300,12/7/2019 18:20,Proin vitae enim a ipsum luctus vehicula vitae eget lorem.
+403264,31632805,12/7/2019 18:20,"Nam nec libero sollicitudin, eleifend felis in, imperdiet nunc."
+403265,2398742,12/7/2019 18:22,Phasellus sed nisi eget velit consectetur varius.
+403266,40140169,12/7/2019 18:23,Proin at quam a magna luctus porttitor et nec ante.
+403267,31984188,12/7/2019 18:25,Aliquam bibendum mi ut lorem gravida sollicitudin.
+403268,89253200,12/7/2019 18:29,"Sed suscipit elit a mauris euismod, vel scelerisque massa venenatis."
+403269,96379267,12/7/2019 18:29,"Nam vulputate felis et arcu molestie, nec porttitor nisi volutpat."
+403270,12475863,12/7/2019 18:32,"Etiam scelerisque arcu id erat varius, vitae accumsan neque varius."
+403271,11482505,12/7/2019 18:34,Aenean pretium erat ut odio tempor molestie.
+403272,47722299,12/7/2019 18:37,Nullam sagittis metus vitae sodales auctor.
+403273,86960861,12/7/2019 18:38,Curabitur egestas sapien vel dui sodales suscipit.
+403274,86960861,12/7/2019 18:39,Suspendisse pretium lectus ac orci feugiat luctus.
+403275,12475863,12/7/2019 18:41,Nam eget turpis quis nulla malesuada interdum in vel nibh.
+403276,75564462,12/7/2019 18:42,"In nec neque sagittis, porta nisi sit amet, tincidunt orci."
+403277,47529561,12/7/2019 18:44,"Nulla eu quam bibendum, interdum velit sit amet, rutrum neque."
+403278,54120190,12/7/2019 18:48,"Vestibulum faucibus nisl et eros aliquet, in fringilla nunc suscipit."
+403279,88594698,12/7/2019 18:49,Nam ultricies lorem in dapibus fringilla.
+403280,94832806,12/7/2019 18:51,Duis placerat mauris non diam placerat cursus.
+403281,13758061,12/7/2019 18:53,Etiam sit amet tellus non ligula finibus pretium.
+403282,31984188,12/7/2019 18:54,Proin id sapien id mauris lacinia tincidunt.
+403283,52096481,12/7/2019 18:54,"Vivamus eu libero auctor, ultrices lorem euismod, accumsan dolor."
+403284,42856766,12/7/2019 18:58,Phasellus fringilla nisi sed placerat cursus.
+403285,83815319,12/7/2019 19:01,Vestibulum consectetur nibh in velit molestie facilisis.
+403286,47529561,12/7/2019 19:05,"Vestibulum porttitor massa vel justo tempus, sed interdum eros faucibus."
+403287,47529561,12/7/2019 19:06,Nulla gravida quam vitae fringilla tempus.
+403288,10993170,12/7/2019 19:08,"Duis a diam venenatis, sagittis sem nec, finibus dolor."
+403289,42852269,12/7/2019 19:08,"Nulla vel neque luctus, dignissim eros non, aliquet elit."
+403290,9567273,12/7/2019 19:11,"Sed blandit sem vel justo pharetra, vel facilisis purus malesuada."
+403291,40140169,12/7/2019 19:13,"Praesent non urna posuere, interdum lectus at, consectetur turpis."
+403292,79583157,12/7/2019 19:15,Donec quis eros in arcu aliquam pretium.
+403293,85029242,12/7/2019 19:15,Fusce vehicula massa non maximus varius.
+403294,79583157,12/7/2019 19:16,Duis et arcu a lectus consequat scelerisque.
+403295,61795158,12/7/2019 19:19,Fusce eget risus ac turpis dictum elementum quis ut sem.
+403296,96037833,12/7/2019 19:22,"Nam at orci bibendum, semper odio sit amet, consequat magna."
+403297,49925123,12/7/2019 19:23,"Cras sit amet justo consectetur, condimentum nisl vel, tincidunt tellus."
+403298,96864510,12/7/2019 19:25,Maecenas consectetur tellus at urna viverra semper.
+403299,31632805,12/7/2019 19:27,"Integer ut ligula laoreet, faucibus urna id, feugiat arcu."
+403300,34305933,12/7/2019 19:29,"Vivamus commodo tortor varius erat mollis, eget malesuada neque iaculis."
+403301,85029242,12/7/2019 19:30,Pellentesque quis nibh sit amet ex tempus tempus.
+403302,86960861,12/7/2019 19:30,"Phasellus in nisl vehicula, sagittis justo sit amet, rutrum sem."
+403303,75564462,12/7/2019 19:33,Integer vehicula leo sit amet ex convallis sagittis.
+403304,94832806,12/7/2019 19:35,Vestibulum eget dui non erat pretium mollis.
+403305,31984188,12/7/2019 19:38,"Integer et nulla consectetur, facilisis diam nec, pretium nisi."
+403306,13758061,12/7/2019 19:41,Quisque vitae velit et arcu luctus dapibus eu ac ipsum.
+403307,47529561,12/7/2019 19:42,"Donec viverra nulla at ligula ultrices, at bibendum enim dictum."
+403308,11482505,12/7/2019 19:44,"Duis euismod ligula eu est consequat, eget aliquam ligula vehicula."
+403309,11482505,12/7/2019 19:47,Donec suscipit magna non tincidunt luctus.
+403310,96037833,12/7/2019 19:49,Aliquam rutrum velit a sapien scelerisque ornare.
+403311,54120190,12/7/2019 19:52,"Morbi accumsan elit at enim lobortis, euismod posuere est cursus."
+403312,18918843,12/7/2019 19:54,Nam venenatis ligula a elit suscipit convallis.
+403313,47722299,12/7/2019 19:58,"Aenean accumsan lorem tincidunt augue varius, sed ullamcorper lacus fermentum."
+403314,52737281,12/7/2019 20:00,Mauris a quam sit amet dui porta lacinia.
+403315,5068480,12/7/2019 20:03,"Donec iaculis metus vel neque vehicula, vitae convallis nibh vehicula."
+403316,40140169,12/7/2019 20:07,Nulla dapibus turpis nec molestie dictum.
+403317,31984188,12/7/2019 20:10,Cras feugiat metus a orci malesuada tincidunt ac quis dolor.
+403318,86960861,12/7/2019 20:12,"Aenean in magna mattis, ornare nisi ac, iaculis nibh."
+403319,11482505,12/7/2019 20:15,Vestibulum vel purus id nunc bibendum mattis.
+403320,52096481,12/7/2019 20:17,Proin vitae eros id quam scelerisque vehicula nec suscipit ligula.
+403321,88594698,12/7/2019 20:18,Nulla tempus orci vehicula faucibus imperdiet.
+403322,92528433,12/7/2019 20:20,"Vestibulum vel orci fermentum, congue eros quis, posuere lorem."
+403323,10993170,12/7/2019 20:22,Nunc sit amet libero et mi ultrices efficitur.
+403324,30813422,12/7/2019 20:26,Fusce ut magna sit amet lorem vehicula elementum.
+403325,10993170,12/7/2019 20:29,Fusce tempus enim vehicula enim ornare pretium.
+403326,27116352,12/7/2019 20:31,Integer finibus nibh at ligula euismod vulputate.
+403327,61795158,12/7/2019 20:35,"Curabitur vitae purus mattis, egestas lacus nec, aliquam elit."
+403328,79583157,12/7/2019 20:38,Aliquam varius lorem ut urna tristique tristique.
+403329,31984188,12/7/2019 20:41,Integer vitae ligula eu nibh cursus tempus.
+403330,94761749,12/7/2019 20:43,"Ut eu tortor mollis, vulputate lectus non, placerat turpis."
+403331,12115762,12/7/2019 20:46,Pellentesque fermentum enim non mauris laoreet tincidunt consequat vel urna.
+403332,79583157,12/7/2019 20:48,Nulla in nisl quis sapien vulputate efficitur.
+403333,92528433,12/7/2019 20:50,Morbi in ex vitae justo mattis luctus.
+403334,86960861,12/7/2019 20:54,"Nam sit amet magna volutpat, tincidunt nunc nec, pharetra augue."
+403335,83815319,12/7/2019 20:56,Praesent quis augue eget eros malesuada convallis sit amet vel urna.
+403336,6898742,12/7/2019 20:57,"Nullam vel odio porta, viverra enim eget, efficitur orci."
+403337,41315375,12/7/2019 20:58,Fusce sit amet orci sed lectus sagittis auctor.
+403338,10993170,12/7/2019 21:00,"Cras id est efficitur, hendrerit libero in, luctus velit."
+403339,94832806,12/7/2019 21:01,Integer ac lacus et felis efficitur mollis ut aliquam dui.
+403340,18918843,12/7/2019 21:04,"Morbi eu est fringilla, posuere sem auctor, egestas dui."
+403341,82836366,12/7/2019 21:07,Aenean lobortis libero et luctus fringilla.
+403342,10993170,12/7/2019 21:11,"Vivamus id leo maximus, egestas lorem sed, tristique leo."
+403343,96864510,12/7/2019 21:13,Phasellus suscipit magna eu dui congue fringilla.
+403344,13758061,12/7/2019 21:14,"Proin efficitur est at nulla bibendum, sit amet finibus massa venenatis."
+403345,49925123,12/7/2019 21:15,Nam mattis augue vitae lobortis viverra.
+403346,31632805,12/7/2019 21:16,Donec et tellus et nunc tincidunt ullamcorper.
+403347,34305933,12/7/2019 21:18,Aenean nec ipsum nec urna vulputate luctus a eget massa.
+403348,92528433,12/7/2019 21:20,Quisque nec lectus vel erat sagittis volutpat.
+403349,22830391,12/7/2019 21:21,Morbi blandit lacus eget lectus hendrerit porttitor.
+403350,6988481,12/7/2019 21:24,"Aenean volutpat lectus ut tortor ultricies, eget vehicula mi blandit."
+403351,11482505,12/7/2019 21:26,"Vivamus et sem lobortis, cursus mauris nec, fermentum nulla."
+403352,12115762,12/7/2019 21:27,Vivamus gravida justo sit amet pretium egestas.
+403353,18918843,12/7/2019 21:29,Nullam eleifend erat id massa maximus bibendum.
+403354,79583157,12/7/2019 21:32,Etiam in mi nec arcu placerat tempus ac nec ligula.
+403355,96864510,12/7/2019 21:34,Aliquam vel nulla non urna vehicula cursus.
+403356,34305933,12/7/2019 21:37,Integer tempor ipsum quis mollis efficitur.
+403357,92528433,12/7/2019 21:41,Nam hendrerit mauris eu risus auctor tempor.
+403358,94761749,12/7/2019 21:44,Maecenas ornare lectus quis sapien elementum consequat.
+403359,47722299,12/7/2019 21:45,Duis condimentum felis et leo convallis finibus.
+403360,99468227,12/7/2019 21:46,Sed luctus diam non facilisis tempor.
+403361,92528433,12/7/2019 21:49,Sed porta lacus nec sapien semper facilisis.
+403362,60434693,12/7/2019 21:52,Ut dictum orci imperdiet elit cursus auctor.
+403363,27116352,12/7/2019 21:55,"Aliquam pharetra arcu sed urna interdum, quis faucibus neque rutrum."
+403364,92528433,12/7/2019 21:57,Morbi lacinia diam sit amet diam pulvinar cursus.
+403365,6898742,12/7/2019 22:01,Nullam vitae dolor ut magna suscipit porttitor vel in neque.
+403366,85029242,12/7/2019 22:05,Nam pretium felis vel porttitor volutpat.
+403367,47722299,12/7/2019 22:09,Cras et risus vitae mauris lobortis tincidunt quis vitae ligula.
+403368,99468227,12/7/2019 22:12,Phasellus pharetra elit vel maximus fermentum.
+403369,27116352,12/7/2019 22:13,Vestibulum consequat purus eget eros vulputate suscipit.
+403370,88594698,12/7/2019 22:13,Nullam eu odio laoreet odio finibus sollicitudin.
+403371,60434693,12/7/2019 22:14,"Duis euismod eros ac justo scelerisque, at volutpat ipsum hendrerit."
+403372,94761749,12/7/2019 22:17,Aenean et mauris quis tellus viverra convallis.
+403373,41083501,12/7/2019 22:20,Nulla fermentum mauris bibendum nibh tristique tempus.
+403374,82836366,12/7/2019 22:20,In sit amet dui non leo sagittis vehicula.
+403375,41083501,12/7/2019 22:21,Sed et eros in turpis placerat finibus.
+403376,10993170,12/7/2019 22:22,Integer quis leo luctus velit auctor ultricies rutrum at risus.
+403377,40140169,12/7/2019 22:22,"Aenean cursus nisi vitae mauris elementum, at convallis quam elementum."
+403378,13758061,12/7/2019 22:26,"Maecenas vehicula diam at nisl vulputate, vitae tincidunt eros cursus."
+403379,96864510,12/7/2019 22:28,"Quisque pharetra massa at justo accumsan, ut fringilla enim dignissim."
+403380,96864510,12/7/2019 22:30,Sed suscipit odio eu commodo posuere.
+403381,34305933,12/7/2019 22:32,"Maecenas non enim laoreet, consequat diam vel, malesuada justo."
+403382,5068480,12/7/2019 22:35,"Nulla fringilla urna suscipit, congue neque vel, faucibus nisl."
+403383,99468227,12/7/2019 22:37,Integer id risus et purus dictum feugiat a ut augue.
+403384,75564462,12/7/2019 22:40,"Aenean pellentesque lacus vitae mauris commodo, at dictum turpis tempus."
+403385,12115762,12/7/2019 22:41,"Vestibulum luctus ipsum in ex ultricies, quis malesuada ex varius."
+403386,54120190,12/7/2019 22:42,Nam eu justo et erat efficitur cursus.
+403387,80605391,12/7/2019 22:43,Praesent sagittis felis non interdum efficitur.
+403388,9567273,12/7/2019 22:44,In eget enim non tortor euismod iaculis.
+403389,10993170,12/7/2019 22:47,"Vivamus mollis neque at dui rhoncus, tincidunt viverra nibh aliquet."
+403390,61795158,12/7/2019 22:50,"Nullam ut tellus auctor, efficitur dui non, laoreet metus."
+403391,34052592,12/7/2019 22:54,Phasellus ultrices lacus ut accumsan feugiat.
+403392,41083501,12/7/2019 22:58,"Donec ultrices justo a quam condimentum, sit amet tincidunt ex bibendum."
+403393,40140169,12/7/2019 23:02,Aenean quis risus id erat suscipit vehicula id nec ex.
+403394,52096481,12/7/2019 23:02,Fusce at lorem nec nunc venenatis finibus blandit et libero.
+403395,47529561,12/7/2019 23:04,Aenean et ligula at mauris aliquam elementum eu suscipit tortor.
+403396,22830391,12/7/2019 23:07,Pellentesque iaculis ante sit amet mollis sollicitudin.
+403397,99468227,12/7/2019 23:09,Mauris condimentum elit eget sagittis fringilla.
+403398,61795158,12/7/2019 23:09,Aliquam at libero eu tortor porttitor sodales eu quis tellus.
+403399,40140169,12/7/2019 23:13,Suspendisse sed lectus a magna mollis consectetur nec a tellus.
+403400,22830391,12/7/2019 23:15,"Vestibulum blandit orci pharetra augue dignissim, et mollis lacus sodales."
+403401,61795158,12/7/2019 23:17,Suspendisse at arcu in orci mollis consequat.
+403402,50674807,12/7/2019 23:18,Duis id nisl nec dui vehicula scelerisque.
+403403,47722299,12/7/2019 23:20,Quisque luctus eros blandit aliquet vulputate.
+403404,10993170,12/7/2019 23:21,Duis sit amet neque in elit vehicula scelerisque.
+403405,94832806,12/7/2019 23:23,Proin placerat tellus id erat vehicula tempus.
+403406,41315375,12/7/2019 23:26,Vestibulum finibus enim id sollicitudin blandit.
+403407,34052592,12/7/2019 23:29,Phasellus in libero vel nibh hendrerit tempor sit amet sed ipsum.
+403408,42852269,12/7/2019 23:31,"Proin at augue dictum, tempor ex sed, molestie orci."
+403409,82836366,12/7/2019 23:33,Aliquam quis nunc in ligula dictum elementum vel convallis justo.
+403410,79583157,12/7/2019 23:36,"Etiam non nunc consequat, iaculis eros et, iaculis libero."
+403411,49925123,12/7/2019 23:40,"Sed varius odio quis erat suscipit, quis porttitor felis lacinia."
+403412,80605391,12/7/2019 23:42,"Fusce pellentesque felis quis arcu posuere, vitae interdum nulla rhoncus."
+403413,52096481,12/7/2019 23:43,"Maecenas sed elit ultrices, consequat erat a, blandit orci."
+403414,86960861,12/7/2019 23:45,"Cras mattis ante eu massa pharetra, in posuere velit facilisis."
+403415,49925123,12/7/2019 23:47,Ut quis elit non augue consequat commodo ut sed nisl.
+403416,88594698,12/7/2019 23:49,"Mauris auctor turpis id erat malesuada, sed facilisis neque imperdiet."
+403417,41315375,12/7/2019 23:53,Ut volutpat quam et nulla posuere ultricies.
+403418,2398742,12/7/2019 23:54,"Vestibulum vel turpis luctus, vulputate elit ac, sagittis justo."
+403419,49925123,12/7/2019 23:57,Integer nec diam at ante tincidunt vehicula.
+403420,96379267,12/7/2019 23:58,Nulla dapibus mi ut velit convallis dapibus.
+403421,96037833,12/8/2019 0:01,Mauris tincidunt nisl eu orci mattis consequat.
+403422,61795158,12/8/2019 0:01,"In convallis erat et eros aliquam, at accumsan lorem scelerisque."
+403423,41083501,12/8/2019 0:05,Praesent eu nibh eget massa suscipit egestas eget sit amet arcu.
+403424,52096481,12/8/2019 0:09,Vestibulum accumsan arcu eu cursus varius.
+403425,42852269,12/8/2019 0:11,Suspendisse fermentum enim vel elit dictum sodales.
+403426,49925123,12/8/2019 0:13,Curabitur at risus sed neque aliquam fermentum nec nec nulla.
+403427,31632805,12/8/2019 0:14,Maecenas ac justo a odio commodo molestie vitae quis lorem.
+403428,9567273,12/8/2019 0:15,Sed faucibus metus eu magna auctor tristique.
+403429,6988481,12/8/2019 0:19,Donec dapibus sem ut magna tristique mattis.
+403430,18918843,12/8/2019 0:23,Fusce sed odio eget magna rutrum iaculis.
+403431,47722299,12/8/2019 0:25,Maecenas suscipit massa dignissim posuere euismod.
+403432,99468227,12/8/2019 0:29,Nam quis erat scelerisque magna blandit scelerisque.
+403433,75564462,12/8/2019 0:33,Sed et felis sit amet ex hendrerit fermentum ut quis nisl.
+403434,6898742,12/8/2019 0:34,"Etiam quis sapien aliquam, congue purus vitae, placerat lectus."
+403435,9567273,12/8/2019 0:34,"Vivamus bibendum ex facilisis, maximus risus in, mattis odio."
+403436,52737281,12/8/2019 0:36,"Donec ac nunc rhoncus, scelerisque dui vel, tincidunt est."
+403437,96379267,12/8/2019 0:39,"Donec aliquam odio vitae diam eleifend, eget hendrerit magna pulvinar."
+403438,54120190,12/8/2019 0:40,Donec fringilla augue ac orci consequat vestibulum.
+403439,94761749,12/8/2019 0:41,Donec tempor quam at arcu lobortis fringilla.
+403440,12475863,12/8/2019 0:42,Duis porta nisl et volutpat fermentum.
+403441,85029242,12/8/2019 0:43,Vivamus quis elit non est dictum mattis quis in lectus.
+403442,94832806,12/8/2019 0:44,Fusce accumsan nulla vel lorem egestas imperdiet.
+403443,96037833,12/8/2019 0:44,Nunc auctor sem a facilisis rutrum.
+403444,85029242,12/8/2019 0:48,"Suspendisse sed purus bibendum, laoreet elit ut, lobortis sem."
+403445,10993170,12/8/2019 0:51,"Vestibulum et magna feugiat, interdum nisl eu, faucibus elit."
+403446,75564462,12/8/2019 0:54,Morbi et orci nec quam facilisis dapibus rutrum ut ante.
+403447,9567273,12/8/2019 0:58,"Suspendisse convallis felis et urna mollis, non euismod est varius."
+403448,5068480,12/8/2019 1:02,Praesent a turpis id nibh interdum efficitur.
+403449,50674807,12/8/2019 1:05,Integer hendrerit turpis eget metus feugiat commodo vel eu elit.
+403450,60434693,12/8/2019 1:06,Aliquam interdum lacus eget lorem interdum egestas.
+403451,65276300,12/8/2019 1:10,Mauris rutrum nisi a viverra euismod.
+403452,85029242,12/8/2019 1:14,Proin fringilla velit eget ultricies pretium.
+403453,11482505,12/8/2019 1:15,Ut nec leo eget quam vestibulum venenatis vitae sit amet nulla.
+403454,47529561,12/8/2019 1:17,Nam venenatis ipsum ut ante dictum dignissim.
+403455,80605391,12/8/2019 1:20,Aenean vitae purus et ex commodo congue sit amet a tortor.
+403456,47529561,12/8/2019 1:24,Morbi tempus dolor non lobortis luctus.
+403457,12475863,12/8/2019 1:27,Morbi et magna a nibh semper facilisis eget ut eros.
+403458,6988481,12/8/2019 1:29,Nulla mollis magna ut dapibus tincidunt.
+403459,92528433,12/8/2019 1:32,Aenean dapibus diam vitae sodales vulputate.
+403460,86960861,12/8/2019 1:33,Fusce consectetur nulla in eros dignissim dapibus.
+403461,13758061,12/8/2019 1:33,"Sed pretium erat nec diam dictum, et ultricies purus feugiat."
+403462,86960861,12/8/2019 1:34,Nulla lobortis magna eu risus elementum semper.
+403463,99468227,12/8/2019 1:37,"Suspendisse eget lorem tempor, sollicitudin purus id, hendrerit lorem."
+403464,49925123,12/8/2019 1:38,In a massa vitae felis rhoncus porta nec egestas metus.
+403465,75564462,12/8/2019 1:39,Aenean efficitur tortor vitae dui aliquam cursus.
+403466,12115762,12/8/2019 1:42,"Nam id ipsum maximus, aliquet ipsum id, aliquam eros."
+403467,79583157,12/8/2019 1:46,Proin ultricies leo at mi iaculis eleifend.
+403468,89253200,12/8/2019 1:47,Etiam vel metus at eros mattis suscipit.
+403469,41315375,12/8/2019 1:50,In hendrerit dui consequat risus dignissim rutrum.
+403470,92528433,12/8/2019 1:53,Vestibulum a urna sed dui venenatis euismod a nec magna.
+403471,92528433,12/8/2019 1:55,Mauris vitae massa at ex rutrum porta.
+403472,40140169,12/8/2019 1:58,Quisque fermentum risus lacinia molestie maximus.
+403473,79583157,12/8/2019 2:00,"In nec libero ultrices, rutrum tortor lacinia, interdum velit."
+403474,47529561,12/8/2019 2:02,Cras blandit metus nec quam tincidunt sollicitudin.
+403475,92528433,12/8/2019 2:04,Mauris ut leo quis ex blandit efficitur mollis viverra nisi.
+403476,92528433,12/8/2019 2:07,Proin placerat lorem at eros semper vulputate.
+403477,47722299,12/8/2019 2:08,"Cras facilisis odio sed nisl semper, consectetur ultricies est posuere."
+403478,11482505,12/8/2019 2:11,Proin sagittis mauris nec mauris scelerisque tincidunt.
+403479,47529561,12/8/2019 2:13,Sed vel mi eget nisi pellentesque maximus in vel lectus.
+403480,86960861,12/8/2019 2:14,"Suspendisse dictum massa vel nisi faucibus, et commodo massa consectetur."
+403481,12475863,12/8/2019 2:16,"Aliquam cursus metus vitae odio tempus, et cursus nunc auctor."
+403482,6898742,12/8/2019 2:18,Vestibulum sit amet nibh eu leo viverra tincidunt at eget arcu.
+403483,42852269,12/8/2019 2:20,"Pellentesque at massa ornare, eleifend risus in, dapibus mi."
+403484,50674807,12/8/2019 2:22,Vivamus et nunc at massa dapibus ultricies vel vel nisi.
+403485,96864510,12/8/2019 2:25,Sed tincidunt magna at efficitur mollis.
+403486,96864510,12/8/2019 2:26,Etiam dignissim dolor aliquet dapibus pretium.
+403487,88594698,12/8/2019 2:29,Phasellus sed sapien eu dolor dignissim pulvinar a et felis.
+403488,92528433,12/8/2019 2:31,Curabitur quis eros quis nisi lacinia convallis in vitae magna.
+403489,2398742,12/8/2019 2:32,Pellentesque et ipsum sed est porta ultricies.
+403490,47529561,12/8/2019 2:34,Maecenas rutrum turpis sed rhoncus volutpat.
+403491,12115762,12/8/2019 2:35,Cras non lectus eget diam consequat ullamcorper sed et tortor.
+403492,96037833,12/8/2019 2:35,Aliquam ac nisi vitae nulla sodales tincidunt vitae non libero.
+403493,82836366,12/8/2019 2:39,"Etiam quis libero volutpat, condimentum dolor sed, faucibus nibh."
+403494,96379267,12/8/2019 2:43,"Quisque eget diam tincidunt, egestas nisi ac, iaculis arcu."
+403495,12475863,12/8/2019 2:46,Maecenas pharetra arcu a auctor aliquet.
+403496,79583157,12/8/2019 2:50,Morbi consectetur dolor et ex molestie porttitor.
+403497,96037833,12/8/2019 2:51,Nullam sollicitudin libero vel enim interdum blandit.
+403498,61795158,12/8/2019 2:54,Vestibulum et lacus eget ipsum ornare eleifend at eu nunc.
+403499,6898742,12/8/2019 2:57,Maecenas in nunc ut turpis fermentum accumsan id id lectus.
+403500,31984188,12/8/2019 3:00,Cras vestibulum metus suscipit eleifend imperdiet.
+403501,27116352,12/8/2019 3:01,Nulla ut nisl ac libero pharetra maximus.
+403502,49925123,12/8/2019 3:04,Quisque in sem at dui ornare viverra.
+403503,22830391,12/8/2019 3:08,Sed vel ligula pellentesque lacus mollis faucibus id id risus.
+403504,27116352,12/8/2019 3:08,"Duis id risus facilisis, semper ipsum ac, finibus dui."
+403505,12475863,12/8/2019 3:10,"Sed porttitor nisl id elit consequat, non dignissim augue tristique."
+403506,31984188,12/8/2019 3:13,Vestibulum at nulla at ligula tincidunt elementum quis quis libero.
+403507,41315375,12/8/2019 3:16,"Donec commodo ligula sit amet felis dignissim, ut consequat risus sagittis."
+403508,89253200,12/8/2019 3:17,Fusce vitae dolor quis elit hendrerit efficitur.
+403509,94761749,12/8/2019 3:20,Nulla sit amet odio ut justo tristique viverra.
+403510,89253200,12/8/2019 3:21,Aenean ac arcu aliquet tortor facilisis venenatis.
+403511,49925123,12/8/2019 3:22,Donec vitae nisi quis mi aliquam posuere.
+403512,47722299,12/8/2019 3:23,"Donec a diam laoreet, malesuada leo sit amet, gravida risus."
+403513,60434693,12/8/2019 3:27,Integer semper metus ac arcu dictum venenatis.
+403514,88594698,12/8/2019 3:30,Ut a risus ut quam fermentum accumsan et a neque.
+403515,54120190,12/8/2019 3:31,Duis euismod lectus non ultricies mattis.
+403516,30813422,12/8/2019 3:32,Quisque sit amet mauris sed est tincidunt pellentesque.
+403517,85029242,12/8/2019 3:36,"Nunc sit amet massa consectetur, facilisis massa ut, sagittis magna."
+403518,30813422,12/8/2019 3:39,Fusce sagittis neque dignissim felis fringilla tempor.
+403519,99468227,12/8/2019 3:43,Vestibulum imperdiet ligula in nunc lacinia gravida.
+403520,34052592,12/8/2019 3:46,"Vivamus imperdiet sem fringilla nisl volutpat, dignissim porta nulla feugiat."
+403521,10993170,12/8/2019 3:48,"Quisque id dolor viverra, vehicula elit id, sollicitudin lorem."
+403522,88594698,12/8/2019 3:49,"Duis eu tortor aliquet, tincidunt justo at, ullamcorper tortor."
+403523,41083501,12/8/2019 3:53,In sit amet enim ac orci aliquam pharetra.
+403524,13758061,12/8/2019 3:53,"Vestibulum tincidunt odio viverra odio ultrices, quis ultricies sem commodo."
+403525,12115762,12/8/2019 3:55,Maecenas et quam vel nisl bibendum semper.
+403526,82836366,12/8/2019 3:58,Integer at augue ac est hendrerit imperdiet.
+403527,12115762,12/8/2019 4:01,Proin vel metus vel velit finibus placerat et vitae leo.
+403528,47722299,12/8/2019 4:04,Nullam posuere justo nec dolor porta elementum.
+403529,52737281,12/8/2019 4:07,"Nulla tempor turpis eleifend augue imperdiet, id suscipit dolor eleifend."
+403530,96864510,12/8/2019 4:11,"Donec pulvinar nulla quis metus hendrerit, non sodales enim sagittis."
+403531,42856766,12/8/2019 4:11,"Sed bibendum sem ut erat auctor, sed gravida nisl varius."
+403532,12115762,12/8/2019 4:13,"Duis at nibh varius, commodo ante eu, lacinia mauris."
+403533,96037833,12/8/2019 4:16,Aliquam congue tortor non enim viverra molestie.
+403534,83815319,12/8/2019 4:18,In vulputate massa eget volutpat pellentesque.
+403535,75564462,12/8/2019 4:20,Proin in massa sed dolor tempor cursus non quis erat.
+403536,11482505,12/8/2019 4:23,Mauris eu justo nec erat iaculis convallis quis quis massa.
+403537,89253200,12/8/2019 4:25,Aenean convallis dui vitae quam ornare gravida.
+403538,83815319,12/8/2019 4:28,Pellentesque et purus a neque mollis tincidunt et ut eros.
+403539,13758061,12/8/2019 4:28,Morbi blandit magna vitae lacinia rutrum.
+403540,12475863,12/8/2019 4:31,Sed facilisis mauris feugiat pulvinar molestie.
+403541,5068480,12/8/2019 4:34,"Curabitur aliquet nisi in elit semper, id ultricies lectus bibendum."
+403542,12475863,12/8/2019 4:37,Phasellus dapibus magna nec nulla tempor pretium.
+403543,18918843,12/8/2019 4:40,Ut id massa nec ante facilisis semper at eget quam.
+403544,80605391,12/8/2019 4:43,Nam mollis odio in lacinia condimentum.
+403545,83815319,12/8/2019 4:46,Integer quis velit nec sem ornare convallis et at orci.
+403546,11482505,12/8/2019 4:48,Nam in libero sed massa feugiat dapibus ac ac erat.
+403547,85029242,12/8/2019 4:51,Mauris sed augue quis ante porttitor viverra imperdiet a ligula.
+403548,49925123,12/8/2019 4:55,Quisque sit amet ante sit amet enim congue pulvinar id et sapien.
+403549,30813422,12/8/2019 4:59,Nulla sit amet tortor nec est faucibus pretium iaculis accumsan odio.
+403550,42856766,12/8/2019 5:02,"Etiam imperdiet elit ac ante lobortis, sed sollicitudin enim lacinia."
+403551,34305933,12/8/2019 5:06,Nam varius purus a sagittis feugiat.
+403552,5068480,12/8/2019 5:10,Suspendisse hendrerit neque non augue imperdiet tristique.
+403553,5068480,12/8/2019 5:12,"In eu nisl pharetra, tincidunt risus et, egestas metus."
+403554,30813422,12/8/2019 5:15,Aenean semper ante ac ex porttitor volutpat.
+403555,83815319,12/8/2019 5:16,Morbi ut risus ac dui euismod mattis.
+403556,13758061,12/8/2019 5:19,"Donec nec purus porta, molestie eros at, mattis felis."
+403557,34305933,12/8/2019 5:22,"Nullam facilisis eros cursus dolor pharetra, ut lacinia sem dapibus."
+403558,10993170,12/8/2019 5:25,In vestibulum felis vitae ipsum viverra posuere vitae a neque.
+403559,83815319,12/8/2019 5:29,Aenean eu mi ac tortor tincidunt dapibus.
+403560,6898742,12/8/2019 5:32,Nulla et purus ac risus tincidunt sodales.
+403561,13758061,12/8/2019 5:35,"Nullam viverra nunc a libero imperdiet, at pharetra metus dictum."
+403562,96037833,12/8/2019 5:36,"Sed ac purus porta, commodo erat a, imperdiet lectus."
+403563,34305933,12/8/2019 5:38,Donec viverra lacus non maximus varius.
+403564,50674807,12/8/2019 5:41,"Nullam et nunc maximus, fringilla magna et, suscipit tellus."
+403565,54120190,12/8/2019 5:42,Praesent vel lectus vitae mi euismod gravida.
+403566,2398742,12/8/2019 5:43,"Proin at neque dignissim, finibus magna nec, euismod massa."
+403567,11482505,12/8/2019 5:45,Vivamus at lacus sed nunc placerat maximus.
+403568,41315375,12/8/2019 5:49,Proin sed lacus vel velit ultricies tempus a volutpat velit.
+403569,75564462,12/8/2019 5:52,Donec in ante at leo pulvinar porttitor eget sed tellus.
+403570,86960861,12/8/2019 5:55,Donec malesuada ipsum nec nisi maximus varius.
+403571,52096481,12/8/2019 5:57,Aliquam accumsan augue vel magna dignissim sollicitudin.
+403572,41315375,12/8/2019 5:59,"Nam consectetur lectus non nibh commodo, ac finibus mauris accumsan."
+403573,65276300,12/8/2019 6:00,Pellentesque volutpat mauris ac metus venenatis rutrum.
+403574,54120190,12/8/2019 6:01,Donec eget mi in velit aliquet tincidunt.
+403575,82836366,12/8/2019 6:03,"Aliquam interdum orci id erat aliquam, non condimentum ligula sollicitudin."
+403576,94832806,12/8/2019 6:04,"Phasellus vitae felis consectetur, convallis turpis ut, convallis tellus."
+403577,31984188,12/8/2019 6:08,Etiam scelerisque est ac enim ultrices gravida.
+403578,85029242,12/8/2019 6:08,"Donec consectetur lectus at libero ullamcorper, rhoncus gravida mauris hendrerit."
+403579,83815319,12/8/2019 6:10,"Quisque vehicula nisi ut purus laoreet, non ullamcorper felis cursus."
+403580,18918843,12/8/2019 6:13,"Pellentesque gravida metus eu eros accumsan, sit amet congue ante egestas."
+403581,54120190,12/8/2019 6:14,"Duis volutpat massa et urna dictum, at sollicitudin metus ultricies."
+403582,27116352,12/8/2019 6:15,Pellentesque ut ligula at nulla gravida sodales.
+403583,94832806,12/8/2019 6:17,"Maecenas tempor felis sed diam pretium, eget egestas tortor euismod."
+403584,52737281,12/8/2019 6:19,Praesent quis mi sit amet purus tempor vulputate.
+403585,42852269,12/8/2019 6:21,Cras a libero quis turpis gravida vestibulum a sed risus.
+403586,99468227,12/8/2019 6:23,Donec pharetra eros non tellus volutpat rhoncus vitae eget ipsum.
+403587,54120190,12/8/2019 6:26,"Aliquam vel felis porttitor, pellentesque nisl viverra, accumsan magna."
+403588,96864510,12/8/2019 6:27,Nunc vel metus in leo maximus ornare.
+403589,11482505,12/8/2019 6:29,Quisque aliquam magna quis mauris euismod porttitor.
+403590,61795158,12/8/2019 6:32,Aliquam sit amet mauris ac erat auctor eleifend vitae ac ex.
+403591,34305933,12/8/2019 6:36,Vivamus eu magna nec lacus ultrices venenatis.
+403592,96864510,12/8/2019 6:36,Ut sed urna dapibus magna blandit accumsan a nec orci.
+403593,12475863,12/8/2019 6:38,Ut sit amet lectus non orci malesuada efficitur ut in erat.
+403594,79583157,12/8/2019 6:38,Cras ac nibh et metus feugiat tincidunt.
+403595,42852269,12/8/2019 6:40,Aliquam lacinia nunc et dolor luctus venenatis.
+403596,13758061,12/8/2019 6:42,"Etiam in velit hendrerit, faucibus enim sed, tempor nunc."
+403597,61795158,12/8/2019 6:46,Morbi convallis velit nec tempor elementum.
+403598,41315375,12/8/2019 6:48,Ut vitae ante sit amet arcu interdum aliquam.
+403599,5068480,12/8/2019 6:49,In vel enim vel arcu blandit lacinia eget nec metus.
+403600,85029242,12/8/2019 6:50,"Praesent dictum lectus sed massa blandit, ornare consequat orci porta."
+403601,31984188,12/8/2019 6:51,Curabitur lacinia eros rutrum tellus condimentum commodo.
+403602,5068480,12/8/2019 6:52,Aliquam tincidunt enim id metus eleifend efficitur.
+403603,83815319,12/8/2019 6:56,"Fusce efficitur est accumsan enim consectetur, et consequat augue convallis."
+403604,47722299,12/8/2019 6:56,"Nulla commodo tellus non eros pulvinar, venenatis imperdiet dolor auctor."
+403605,41083501,12/8/2019 6:57,Nunc dictum ex viverra malesuada porttitor.
+403606,94761749,12/8/2019 7:01,Sed scelerisque nibh ut mauris varius tincidunt.
+403607,41083501,12/8/2019 7:04,Duis vel nisl et magna finibus commodo non sit amet lacus.
+403608,49925123,12/8/2019 7:07,Sed eu turpis at nulla porttitor cursus nec sagittis est.
+403609,42856766,12/8/2019 7:10,"Integer facilisis felis et metus tempus, a tristique tortor laoreet."
+403610,13758061,12/8/2019 7:12,Sed tempor justo in pellentesque maximus.
+403611,60434693,12/8/2019 7:16,Nullam id tortor vitae sem molestie commodo id at lacus.
+403612,18918843,12/8/2019 7:17,Morbi convallis lectus sed lectus euismod pharetra.
+403613,88594698,12/8/2019 7:18,Nulla et lacus at metus condimentum scelerisque.
+403614,6898742,12/8/2019 7:19,Praesent sagittis leo mattis aliquet placerat.
+403615,12115762,12/8/2019 7:21,Aenean in quam quis diam bibendum tristique luctus vel enim.
+403616,96864510,12/8/2019 7:25,"Maecenas facilisis ipsum non est pretium, et auctor ex tincidunt."
+403617,2398742,12/8/2019 7:26,Donec convallis magna gravida sem lacinia tempor.
+403618,61795158,12/8/2019 7:29,"Curabitur vel diam semper, venenatis odio sed, elementum massa."
+403619,13758061,12/8/2019 7:32,In auctor lorem aliquet massa imperdiet mattis.
+403620,89253200,12/8/2019 7:33,Nunc finibus mauris sagittis egestas convallis.
+403621,96864510,12/8/2019 7:35,Donec auctor augue ac massa fermentum maximus.
+403622,61795158,12/8/2019 7:38,"Nunc semper magna a risus venenatis, ac varius est gravida."
+403623,30813422,12/8/2019 7:39,"Quisque gravida enim id lorem porttitor, vitae hendrerit metus fringilla."
+403624,41932907,12/8/2019 7:41,Nam consequat nisl id velit faucibus aliquet.
+403625,41083501,12/8/2019 7:44,Phasellus consequat lacus ac lectus laoreet ornare.
+403626,88594698,12/8/2019 7:44,"Phasellus vel elit accumsan, lobortis arcu at, rutrum leo."
+403627,6988481,12/8/2019 7:46,Etiam elementum metus ut mattis scelerisque.
+403628,65276300,12/8/2019 7:48,Fusce euismod mi a ornare finibus.
+403629,12475863,12/8/2019 7:51,"Nulla at leo placerat, rutrum nisl at, finibus ante."
+403630,18918843,12/8/2019 7:54,Aenean et elit vel leo facilisis aliquet.
+403631,27116352,12/8/2019 7:55,Quisque eget erat ac quam scelerisque euismod vitae blandit dolor.
+403632,50674807,12/8/2019 7:57,Nunc lobortis magna at eros sodales porta.
+403633,99468227,12/8/2019 8:00,"Donec sagittis lorem tristique, dictum arcu nec, semper augue."
+403634,18918843,12/8/2019 8:03,Nulla ac enim sit amet nibh porttitor consequat sit amet ac nulla.
+403635,2398742,12/8/2019 8:05,Suspendisse ut ex et tortor dignissim volutpat.
+403636,41932907,12/8/2019 8:09,Quisque rutrum nisl in efficitur varius.
+403637,92528433,12/8/2019 8:12,Cras pellentesque justo et augue suscipit condimentum.
+403638,89253200,12/8/2019 8:13,"Maecenas facilisis elit nec ex lacinia, in pharetra metus interdum."
+403639,52737281,12/8/2019 8:15,"Sed malesuada sem sit amet nibh pellentesque, at tempor ipsum viverra."
+403640,34305933,12/8/2019 8:17,"Praesent id massa fringilla, egestas nulla quis, ullamcorper metus."
+403641,82836366,12/8/2019 8:21,Suspendisse laoreet ligula ut iaculis fermentum.
+403642,96864510,12/8/2019 8:22,Sed egestas nulla vitae tincidunt vestibulum.
+403643,12115762,12/8/2019 8:26,Proin eget felis vel ex ullamcorper faucibus.
+403644,52737281,12/8/2019 8:29,In sit amet massa ac velit cursus convallis.
+403645,42852269,12/8/2019 8:30,"Pellentesque at ex efficitur, tristique mauris vitae, bibendum est."
+403646,40140169,12/8/2019 8:31,Ut iaculis felis et diam elementum tincidunt.
+403647,61795158,12/8/2019 8:34,Etiam ac justo vitae neque maximus pellentesque eu id tortor.
+403648,31632805,12/8/2019 8:35,Nullam eu lorem id velit viverra vestibulum nec ut purus.
+403649,79583157,12/8/2019 8:38,"Duis scelerisque neque tristique, venenatis purus eu, aliquam orci."
+403650,10993170,12/8/2019 8:40,Fusce id urna ut justo suscipit iaculis et a est.
+403651,96864510,12/8/2019 8:43,Nulla vehicula neque vitae porta luctus.
+403652,40140169,12/8/2019 8:46,Quisque luctus leo non accumsan porta.
+403653,12475863,12/8/2019 8:48,Sed porta justo nec sem ultrices auctor.
+403654,31984188,12/8/2019 8:52,Vivamus accumsan nunc sit amet nisl hendrerit finibus.
+403655,52737281,12/8/2019 8:54,Phasellus molestie dui nec neque mattis consectetur.
+403656,42856766,12/8/2019 8:58,Cras laoreet justo laoreet risus rhoncus lobortis.
+403657,94832806,12/8/2019 9:00,Praesent molestie eros vehicula dictum maximus.
+403658,75564462,12/8/2019 9:02,"Aenean sollicitudin lectus nec metus ultrices, ac sollicitudin lorem vestibulum."
+403659,42852269,12/8/2019 9:03,Maecenas ultricies lectus nec erat aliquet volutpat.
+403660,13758061,12/8/2019 9:07,Pellentesque eget purus non mi blandit sodales nec ut leo.
+403661,22830391,12/8/2019 9:08,Cras sed est sit amet nunc tempor hendrerit.
+403662,10993170,12/8/2019 9:10,Pellentesque sed augue nec massa aliquam pulvinar eu eget dui.
+403663,85029242,12/8/2019 9:14,Vivamus maximus dolor non est mattis ultrices.
+403664,6898742,12/8/2019 9:17,Morbi quis neque ut purus facilisis sollicitudin quis id urna.
+403665,22830391,12/8/2019 9:18,Duis eleifend ligula at ipsum ullamcorper mattis.
+403666,31632805,12/8/2019 9:22,"Sed et mi vehicula, accumsan metus non, commodo purus."
+403667,50674807,12/8/2019 9:23,Aenean id nulla eget est mollis elementum.
+403668,83815319,12/8/2019 9:24,Nulla ac urna interdum sapien egestas lacinia non eget nibh.
+403669,42856766,12/8/2019 9:27,Morbi in nibh in ante blandit dignissim non at risus.
+403670,65276300,12/8/2019 9:29,Quisque ultricies neque sit amet elit congue bibendum.
+403671,82836366,12/8/2019 9:31,Nulla nec quam sit amet purus congue rhoncus.
+403672,75564462,12/8/2019 9:34,"Ut vehicula tortor in nisl imperdiet, eget feugiat nulla maximus."
+403673,6988481,12/8/2019 9:35,"Proin vestibulum felis id ipsum porttitor, et mollis nisl ornare."
+403674,31632805,12/8/2019 9:38,"Nulla aliquam mi vel sem tincidunt, a porta massa sollicitudin."
+403675,13758061,12/8/2019 9:40,Morbi mollis est egestas porta dictum.
+403676,86960861,12/8/2019 9:42,Etiam iaculis tortor nec lacus imperdiet facilisis.
+403677,10993170,12/8/2019 9:46,"In malesuada tortor sagittis, mollis eros sit amet, consectetur eros."
+403678,41083501,12/8/2019 9:47,Ut ultrices leo sed tempor tincidunt.
+403679,34052592,12/8/2019 9:51,Maecenas eu nisl sed nibh fermentum semper.
+403680,60434693,12/8/2019 9:55,Vestibulum nec arcu sit amet ante ultricies aliquam.
+403681,88594698,12/8/2019 9:55,Nullam eu tellus a sem pharetra maximus sed et metus.
+403682,96379267,12/8/2019 9:58,In sollicitudin eros ac consectetur malesuada.
+403683,6898742,12/8/2019 10:02,Ut vulputate nisi a leo egestas aliquet.
+403684,96037833,12/8/2019 10:05,"Nunc luctus ante in ligula pretium, eu euismod turpis eleifend."
+403685,47529561,12/8/2019 10:06,Vestibulum eu mi id dui accumsan aliquet et vel lectus.
+403686,22830391,12/8/2019 10:06,Sed tristique nibh et sem rhoncus ultricies.
+403687,96379267,12/8/2019 10:07,Nunc eu eros at mauris facilisis fringilla.
+403688,42856766,12/8/2019 10:09,In vitae mi vel dolor pulvinar placerat at sit amet purus.
+403689,54120190,12/8/2019 10:11,In vel enim ut mi faucibus pellentesque in ac erat.
+403690,6988481,12/8/2019 10:12,In vulputate leo ac laoreet laoreet.
+403691,96864510,12/8/2019 10:14,"Sed sodales ex at ipsum porta, ut condimentum purus lacinia."
+403692,52737281,12/8/2019 10:16,Duis ornare lorem id ligula ultricies semper.
+403693,13758061,12/8/2019 10:16,Nulla hendrerit neque quis justo aliquet fringilla.
+403694,6988481,12/8/2019 10:20,Nunc et diam sit amet diam interdum posuere ac eu sem.
+403695,85029242,12/8/2019 10:21,"In mattis ante quis mi vestibulum, vitae tincidunt magna consequat."
+403696,50674807,12/8/2019 10:22,"In dictum nisi nec velit fringilla, vitae suscipit dolor lacinia."
+403697,30813422,12/8/2019 10:24,"Integer non lacus iaculis, sollicitudin eros vitae, semper velit."
+403698,60434693,12/8/2019 10:27,"Proin feugiat nulla ac lectus tempus, eu posuere eros convallis."
+403699,94761749,12/8/2019 10:30,Fusce elementum leo non diam laoreet cursus.
+403700,47722299,12/8/2019 10:33,Nulla venenatis nisi ac sapien tincidunt congue.
+403701,65276300,12/8/2019 10:34,"Donec et augue feugiat, rutrum sem a, facilisis odio."
+403702,80605391,12/8/2019 10:36,Integer eu arcu id lectus imperdiet commodo vel facilisis nibh.
+403703,31984188,12/8/2019 10:39,"Suspendisse accumsan ligula id mi pellentesque, a lobortis mi iaculis."
+403704,42856766,12/8/2019 10:41,Sed sed elit pharetra lorem posuere malesuada.
+403705,41932907,12/8/2019 10:44,Pellentesque a sem eget felis ultrices porttitor.
+403706,31632805,12/8/2019 10:47,Etiam vestibulum quam sit amet pharetra congue.
+403707,50674807,12/8/2019 10:51,"Cras euismod ipsum a elit vehicula, sed scelerisque risus posuere."
+403708,82836366,12/8/2019 10:52,Morbi faucibus quam quis risus aliquam tincidunt.
+403709,41932907,12/8/2019 10:53,Nulla vitae est et lacus convallis ultricies.
+403710,10993170,12/8/2019 10:57,"Nunc volutpat ante at ipsum gravida, egestas pretium dui viverra."
+403711,42852269,12/8/2019 10:58,"Nam tincidunt lacus vel sapien consequat, eget lacinia dui dictum."
+403712,60434693,12/8/2019 10:59,Donec maximus ante ut sem tincidunt hendrerit.
+403713,54120190,12/8/2019 11:02,Donec fringilla felis et ante cursus laoreet.
+403714,99468227,12/8/2019 11:03,"Aliquam placerat sem sit amet felis commodo, quis bibendum leo mattis."
+403715,6988481,12/8/2019 11:04,Nunc nec lacus eget quam fermentum volutpat.
+403716,79583157,12/8/2019 11:06,Aenean faucibus magna nec vulputate accumsan.
+403717,52096481,12/8/2019 11:09,"Donec eu felis iaculis, mollis orci sit amet, imperdiet nunc."
+403718,80605391,12/8/2019 11:12,"Maecenas placerat felis id neque elementum, pretium suscipit neque condimentum."
+403719,13758061,12/8/2019 11:13,Donec at velit nec velit feugiat viverra.
+403720,54120190,12/8/2019 11:15,"Pellentesque cursus velit ac elit sodales, quis rutrum lacus pretium."
+403721,96864510,12/8/2019 11:16,"Donec dapibus sapien ut tellus cursus, maximus efficitur mauris malesuada."
+403722,92528433,12/8/2019 11:18,"Nulla id dui pulvinar, pretium magna in, tempus est."
+403723,10993170,12/8/2019 11:22,Cras eu nibh vel risus tempus vulputate vitae nec diam.
+403724,31984188,12/8/2019 11:25,"Etiam mattis augue ornare magna rutrum, et facilisis urna blandit."
+403725,96864510,12/8/2019 11:26,"Sed ac magna blandit, elementum ligula id, porttitor erat."
+403726,49925123,12/8/2019 11:27,Pellentesque maximus ante vitae risus tempus ullamcorper.
+403727,49925123,12/8/2019 11:28,"Sed in justo pellentesque, iaculis enim sed, elementum nulla."
+403728,6898742,12/8/2019 11:31,"Donec fringilla nibh eget augue accumsan, at pretium magna gravida."
+403729,2398742,12/8/2019 11:32,"Ut egestas risus vel sem feugiat, eget maximus neque aliquam."
+403730,82836366,12/8/2019 11:36,"Mauris condimentum mi rutrum, pretium est eget, vehicula metus."
+403731,22830391,12/8/2019 11:38,Nam eleifend sem ac erat feugiat tincidunt.
+403732,42856766,12/8/2019 11:39,Praesent rhoncus neque non libero viverra placerat non a urna.
+403733,10993170,12/8/2019 11:43,"Praesent pretium nisi a dui laoreet, vel interdum nibh lacinia."
+403734,30813422,12/8/2019 11:46,"Morbi aliquam massa eget erat blandit, ac tincidunt sem cursus."
+403735,83815319,12/8/2019 11:49,Aenean sollicitudin mi vel consectetur tempus.
+403736,47529561,12/8/2019 11:50,Suspendisse eleifend leo at mauris tempus aliquam at vitae sem.
+403737,31632805,12/8/2019 11:50,"Ut congue sapien et leo consequat, id egestas nibh scelerisque."
+403738,5068480,12/8/2019 11:51,"Morbi quis arcu tempus, efficitur orci mollis, sagittis ex."
+403739,12115762,12/8/2019 11:53,"Aliquam dapibus erat vel risus viverra, sed ultrices turpis porttitor."
+403740,61795158,12/8/2019 11:56,Cras efficitur massa nec auctor aliquam.
+403741,18918843,12/8/2019 11:58,Aliquam sodales neque vitae commodo scelerisque.
+403742,42856766,12/8/2019 12:00,Sed ac sapien in ante convallis commodo.
+403743,27116352,12/8/2019 12:02,"Nam id est posuere, scelerisque magna nec, vestibulum mi."
+403744,31984188,12/8/2019 12:03,"Nam laoreet nibh nec massa auctor, eget iaculis nibh viverra."
+403745,94832806,12/8/2019 12:07,"Sed porta lectus eu ipsum elementum, non feugiat nisl sollicitudin."
+403746,92528433,12/8/2019 12:09,Nunc ut purus maximus ligula facilisis placerat et a augue.
+403747,50674807,12/8/2019 12:09,In varius mi non vulputate commodo.
+403748,9567273,12/8/2019 12:13,Maecenas eu sem at leo aliquet viverra.
+403749,92528433,12/8/2019 12:14,"Suspendisse vel sapien dignissim, maximus justo at, mollis risus."
+403750,34052592,12/8/2019 12:17,Quisque pellentesque quam ut nisl lobortis tempus.
+403751,61795158,12/8/2019 12:18,Nunc et elit nec tellus tincidunt convallis vel non magna.
+403752,31632805,12/8/2019 12:22,Sed in ligula rutrum neque volutpat pretium.
+403753,18918843,12/8/2019 12:25,"Ut rutrum quam consequat arcu placerat, ut laoreet nibh convallis."
+403754,96037833,12/8/2019 12:28,Aenean vulputate dolor sit amet eros porttitor volutpat.
+403755,47722299,12/8/2019 12:32,Maecenas et lacus non sapien consequat rutrum.
+403756,42856766,12/8/2019 12:32,Curabitur sit amet magna et justo auctor ultrices.
+403757,96379267,12/8/2019 12:35,Proin a felis a ipsum varius pellentesque ac at metus.
+403758,12475863,12/8/2019 12:37,Fusce non tellus vitae neque sollicitudin euismod bibendum ut dolor.
+403759,18918843,12/8/2019 12:40,Sed suscipit ex at luctus vestibulum.
+403760,50674807,12/8/2019 12:44,Mauris eget turpis vel nibh pellentesque venenatis.
+403761,6988481,12/8/2019 12:45,Sed condimentum justo nec nisl aliquet tincidunt.
+403762,96864510,12/8/2019 12:47,"Donec blandit justo quis purus ornare, ac viverra tellus porta."
+403763,94832806,12/8/2019 12:47,Curabitur a ipsum non ipsum ultricies fringilla et eget ante.
+403764,99468227,12/8/2019 12:48,"In quis justo dapibus, convallis nunc et, consectetur turpis."
+403765,47529561,12/8/2019 12:51,Suspendisse iaculis purus in augue finibus pulvinar et eget odio.
+403766,75564462,12/8/2019 12:52,"Pellentesque eleifend eros imperdiet risus rutrum, quis rhoncus ligula fringilla."
+403767,42856766,12/8/2019 12:52,"Nunc eu orci faucibus, pharetra purus nec, aliquet risus."
+403768,42852269,12/8/2019 12:56,Sed ultricies neque a felis lobortis mollis.
+403769,82836366,12/8/2019 12:57,Nam quis nisl mollis lectus auctor ultrices nec vitae orci.
+403770,6988481,12/8/2019 12:59,Etiam ornare odio at consequat mattis.
+403771,18918843,12/8/2019 13:00,Integer eu erat ut mauris iaculis viverra.
+403772,40140169,12/8/2019 13:01,"Vestibulum vitae leo pellentesque, pellentesque ligula in, dictum justo."
+403773,31632805,12/8/2019 13:05,"Praesent ornare eros quis tellus tempus, id auctor est auctor."
+403774,42852269,12/8/2019 13:05,Duis ac nisl nec tortor laoreet pulvinar sed eget eros.
+403775,31984188,12/8/2019 13:07,Nulla eget turpis et nisi ultrices accumsan ut eget nulla.
+403776,34052592,12/8/2019 13:08,"Nulla vitae odio porta, luctus libero ut, lacinia nisl."
+403777,41083501,12/8/2019 13:12,In congue velit non ex molestie vulputate.
+403778,83815319,12/8/2019 13:12,Sed vel ligula vel quam dignissim commodo et vel lorem.
+403779,42852269,12/8/2019 13:15,Maecenas vel sem at arcu pretium placerat id ac velit.
+403780,12115762,12/8/2019 13:17,Pellentesque egestas sapien non nulla tincidunt gravida.
+403781,12475863,12/8/2019 13:19,"Duis sit amet dolor sollicitudin, dignissim eros at, luctus orci."
+403782,6988481,12/8/2019 13:22,Nulla varius tellus vel interdum facilisis.
+403783,10993170,12/8/2019 13:25,Proin interdum tellus ut massa sollicitudin porttitor.
+403784,83815319,12/8/2019 13:25,Curabitur non diam sed lectus viverra semper.
+403785,65276300,12/8/2019 13:26,"Aliquam quis nisl facilisis, vestibulum dui eu, dictum justo."
+403786,99468227,12/8/2019 13:26,"Phasellus quis lectus lobortis, vulputate tellus blandit, tempus lorem."
+403787,89253200,12/8/2019 13:29,"Curabitur a nunc malesuada, vehicula enim eu, imperdiet diam."
+403788,41315375,12/8/2019 13:32,Integer eget nibh non ipsum mollis egestas.
+403789,49925123,12/8/2019 13:33,Ut quis ante et quam sodales gravida ut sed dui.
+403790,47529561,12/8/2019 13:37,"Sed vel arcu sollicitudin, fermentum neque nec, consectetur elit."
+403791,79583157,12/8/2019 13:41,Maecenas tempus mauris eu justo semper pellentesque.
+403792,54120190,12/8/2019 13:42,"Quisque sit amet quam volutpat, sollicitudin sapien eu, ultrices ex."
+403793,96379267,12/8/2019 13:44,Nunc vel dui lobortis nibh vestibulum cursus ac quis nibh.
+403794,30813422,12/8/2019 13:48,Fusce quis tortor nec dui aliquet tristique.
+403795,60434693,12/8/2019 13:50,"Sed dignissim sem quis nisi pulvinar, vel tempor ipsum ornare."
+403796,41083501,12/8/2019 13:50,Ut rhoncus nisi ut vestibulum commodo.
+403797,34052592,12/8/2019 13:54,"Aliquam ullamcorper sapien at magna cursus, et venenatis orci fermentum."
+403798,50674807,12/8/2019 13:57,Cras condimentum ex ac dictum aliquam.
+403799,79583157,12/8/2019 14:00,Sed molestie ipsum sit amet sapien aliquam maximus.
+403800,99468227,12/8/2019 14:02,Integer sit amet turpis a nisl euismod condimentum lacinia nec neque.
+403801,60434693,12/8/2019 14:05,Praesent sed ante et risus tincidunt malesuada ut et velit.
+403802,30813422,12/8/2019 14:09,Etiam non felis ac quam pulvinar imperdiet.
+403803,54120190,12/8/2019 14:13,Suspendisse volutpat orci a arcu facilisis feugiat.
+403804,12115762,12/8/2019 14:15,Duis tincidunt lorem sed feugiat dapibus.
+403805,34052592,12/8/2019 14:19,In sed mauris id ipsum elementum cursus.
+403806,96379267,12/8/2019 14:22,"Suspendisse in erat suscipit, vehicula diam in, viverra lacus."
+403807,96037833,12/8/2019 14:25,"Aenean vitae tellus rhoncus, semper lacus quis, ullamcorper nisl."
+403808,52096481,12/8/2019 14:28,Sed a tellus ac sapien tristique dictum non eu nulla.
+403809,30813422,12/8/2019 14:31,Praesent eget mauris id orci rutrum mollis quis id ligula.
+403810,22830391,12/8/2019 14:34,Pellentesque ac lorem sit amet risus rhoncus imperdiet.
+403811,94832806,12/8/2019 14:35,"Duis sit amet felis maximus, pulvinar sapien vel, mattis ipsum."
+403812,61795158,12/8/2019 14:37,Ut ac felis a massa sodales pretium at ut massa.
+403813,42856766,12/8/2019 14:37,Praesent dapibus odio in lorem euismod ornare.
+403814,92528433,12/8/2019 14:38,"Quisque auctor nisl id nunc bibendum, a posuere libero convallis."
+403815,12115762,12/8/2019 14:39,Vivamus placerat ipsum ac nulla lacinia pharetra.
+403816,30813422,12/8/2019 14:41,"Proin mollis lacus at tellus varius, nec tincidunt purus aliquam."
+403817,9567273,12/8/2019 14:45,Sed eget odio eget eros porttitor sollicitudin.
+403818,94761749,12/8/2019 14:49,"Sed quis eros ultricies, aliquet libero non, tempus velit."
+403819,89253200,12/8/2019 14:50,In ac nulla nec magna efficitur tempus non eu magna.
+403820,22830391,12/8/2019 14:54,Duis et enim at nisi auctor porta id luctus lacus.
+403821,94832806,12/8/2019 14:55,"Curabitur vitae enim dapibus, tincidunt diam et, iaculis augue."
+403822,41315375,12/8/2019 14:55,"In sollicitudin ipsum et tellus mattis, et interdum est tincidunt."
+403823,61795158,12/8/2019 14:58,Vivamus vitae leo ac mauris dictum luctus.
+403824,31984188,12/8/2019 15:01,Fusce eleifend tortor elementum semper condimentum.
+403825,34052592,12/8/2019 15:05,Suspendisse tempus felis scelerisque erat dignissim euismod.
+403826,92528433,12/8/2019 15:08,Morbi a nisi et odio interdum bibendum in id nulla.
+403827,94761749,12/8/2019 15:11,Phasellus id eros et turpis sodales rutrum nec ut metus.
+403828,34305933,12/8/2019 15:15,Proin tincidunt felis sed lectus pretium facilisis.
+403829,52737281,12/8/2019 15:19,Fusce sit amet orci ut felis varius ultricies ut ac eros.
+403830,31984188,12/8/2019 15:21,"Morbi tincidunt augue ac dolor tincidunt, quis interdum ex condimentum."
+403831,6898742,12/8/2019 15:25,"Suspendisse id odio efficitur, ultricies erat eget, dictum tellus."
+403832,2398742,12/8/2019 15:29,"Cras lacinia libero eu urna porta, vel mattis orci commodo."
+403833,27116352,12/8/2019 15:32,Duis id orci eu lorem egestas sollicitudin.
+403834,2398742,12/8/2019 15:34,"Nulla ac justo laoreet, pulvinar libero ut, fringilla mauris."
+403835,18918843,12/8/2019 15:35,Praesent consequat dui ac porttitor consequat.
+403836,10993170,12/8/2019 15:39,"Proin eu felis euismod, consequat ligula eu, convallis elit."
+403837,22830391,12/8/2019 15:39,Pellentesque at nulla in nunc tincidunt bibendum.
+403838,34305933,12/8/2019 15:43,"Phasellus nec neque maximus, placerat leo nec, elementum justo."
+403839,34305933,12/8/2019 15:47,Vestibulum eget tellus non orci consequat imperdiet.
+403840,85029242,12/8/2019 15:50,Nulla egestas est quis diam maximus porta.
+403841,94761749,12/8/2019 15:52,"Nullam non velit lacinia, tempor metus ac, tincidunt enim."
+403842,85029242,12/8/2019 15:53,Donec congue tortor sit amet tellus porttitor varius.
+403843,41083501,12/8/2019 15:57,Nunc eleifend quam et aliquam placerat.
+403844,49925123,12/8/2019 16:00,Cras dapibus neque id pellentesque porttitor.
+403845,50674807,12/8/2019 16:02,"Duis posuere orci in nisi luctus, ut sodales nisi consequat."
+403846,41932907,12/8/2019 16:04,Duis vitae massa at felis maximus porta.
+403847,9567273,12/8/2019 16:05,Nam facilisis sem in accumsan bibendum.
+403848,94832806,12/8/2019 16:05,Nam vel enim sit amet ante porttitor convallis non non tortor.
+403849,86960861,12/8/2019 16:06,Morbi vulputate metus et placerat fringilla.
+403850,5068480,12/8/2019 16:07,"Cras bibendum nibh at velit ultricies, elementum suscipit lacus dapibus."
+403851,79583157,12/8/2019 16:10,"Donec quis urna semper, porta tellus ut, faucibus justo."
+403852,5068480,12/8/2019 16:13,"Pellentesque auctor odio quis purus fermentum, sed malesuada eros ultricies."
+403853,96864510,12/8/2019 16:17,Morbi tristique tellus et dictum iaculis.
+403854,18918843,12/8/2019 16:20,Sed eu ligula ullamcorper nunc egestas pretium.
+403855,31632805,12/8/2019 16:21,"Etiam lacinia ex eget turpis malesuada, ultricies faucibus diam accumsan."
+403856,85029242,12/8/2019 16:22,Morbi pellentesque nisi et massa aliquet consequat.
+403857,27116352,12/8/2019 16:26,Nunc quis elit in odio dictum vulputate.
+403858,47722299,12/8/2019 16:28,"Suspendisse tincidunt nibh a augue vestibulum, quis porttitor velit porta."
+403859,80605391,12/8/2019 16:29,"Phasellus sagittis odio ac diam ultricies, interdum commodo est cursus."
+403860,27116352,12/8/2019 16:31,"Nullam in felis dignissim, sollicitudin enim sit amet, ultrices leo."
+403861,31632805,12/8/2019 16:35,"Donec quis lorem tincidunt, egestas augue sed, rhoncus lacus."
+403862,18918843,12/8/2019 16:37,Morbi imperdiet erat scelerisque iaculis placerat.
+403863,61795158,12/8/2019 16:40,"Curabitur lobortis nunc ac nunc hendrerit, sed tincidunt est fermentum."
+403864,89253200,12/8/2019 16:44,Ut scelerisque eros et sapien commodo lacinia.
+403865,6898742,12/8/2019 16:48,Curabitur placerat urna eget nulla vestibulum mollis.
+403866,49925123,12/8/2019 16:51,"Aenean blandit mi vitae ex bibendum, vitae auctor diam semper."
+403867,60434693,12/8/2019 16:55,Mauris in massa sed libero consectetur varius.
+403868,9567273,12/8/2019 16:58,Donec eleifend tortor id leo tristique bibendum.
+403869,61795158,12/8/2019 17:00,Sed posuere tortor in finibus facilisis.
+403870,47722299,12/8/2019 17:04,Nam ultricies massa id purus laoreet dignissim.
+403871,85029242,12/8/2019 17:05,Pellentesque bibendum lorem ut vestibulum fringilla.
+403872,27116352,12/8/2019 17:08,Praesent porta augue eu vestibulum accumsan.
+403873,18918843,12/8/2019 17:09,Quisque eget justo in tortor congue pulvinar.
+403874,96379267,12/8/2019 17:12,Aliquam rutrum magna eget lorem iaculis consectetur ut et elit.
+403875,60434693,12/8/2019 17:15,"Vestibulum nec elit elementum, vestibulum nibh a, porttitor nulla."
+403876,99468227,12/8/2019 17:16,Praesent rutrum diam pulvinar mauris tristique iaculis.
+403877,50674807,12/8/2019 17:18,Morbi varius lectus vel metus scelerisque commodo.
+403878,92528433,12/8/2019 17:21,"Nullam ornare est ac turpis fringilla, id gravida magna laoreet."
+403879,47722299,12/8/2019 17:21,"Aenean vitae massa ultricies, volutpat massa ac, finibus tellus."
+403880,6898742,12/8/2019 17:23,"Phasellus volutpat lectus ut nisl vehicula, eu iaculis odio sodales."
+403881,65276300,12/8/2019 17:26,"Curabitur tempor tellus a leo venenatis, eu sodales ipsum auctor."
+403882,42852269,12/8/2019 17:28,Fusce lacinia leo quis luctus iaculis.
+403883,12475863,12/8/2019 17:28,Aliquam feugiat ex vitae lacus elementum blandit.
+403884,82836366,12/8/2019 17:32,Duis efficitur nisi non augue rutrum facilisis.
+403885,34305933,12/8/2019 17:33,Duis at felis ac tellus porttitor suscipit vitae et diam.
+403886,27116352,12/8/2019 17:36,Nunc ac augue at felis egestas dignissim id eget ante.
+403887,60434693,12/8/2019 17:37,"Suspendisse eget sem pretium, vehicula ligula in, ornare risus."
+403888,27116352,12/8/2019 17:40,Vivamus consequat sem vel enim dignissim cursus.
+403889,27116352,12/8/2019 17:44,Nam ut sem quis metus convallis pharetra sit amet ac purus.
+403890,41315375,12/8/2019 17:45,"Curabitur a nisl maximus, malesuada ante id, tincidunt erat."
+403891,96379267,12/8/2019 17:48,Curabitur commodo tellus ut ex consequat commodo.
+403892,41083501,12/8/2019 17:51,Ut ultricies lorem id neque hendrerit vestibulum.
+403893,22830391,12/8/2019 17:54,"Morbi maximus lectus id lorem dictum, a posuere mauris pulvinar."
+403894,65276300,12/8/2019 17:56,Nunc vestibulum lorem sit amet turpis rutrum feugiat in eget ante.
+403895,60434693,12/8/2019 17:59,Nam sed nisl ut magna sodales vestibulum.
+403896,94832806,12/8/2019 18:02,"Vivamus quis tellus tincidunt, efficitur orci eu, posuere risus."
+403897,79583157,12/8/2019 18:03,Vestibulum vitae leo nec enim scelerisque accumsan in id enim.
+403898,83815319,12/8/2019 18:03,"Aenean id ipsum hendrerit, blandit lacus id, finibus tellus."
+403899,31632805,12/8/2019 18:06,"Aenean venenatis arcu a neque finibus, eget scelerisque lectus scelerisque."
+403900,6988481,12/8/2019 18:08,Mauris facilisis sem id ornare eleifend.
+403901,96037833,12/8/2019 18:10,"Sed rhoncus justo ac turpis condimentum, eget ullamcorper nisi porttitor."
+403902,52737281,12/8/2019 18:10,Duis tincidunt est non pharetra vulputate.
+403903,18918843,12/8/2019 18:14,"Maecenas vel ante congue, lobortis est vel, lacinia leo."
+403904,10993170,12/8/2019 18:18,Vestibulum commodo ipsum vel sapien molestie tempor.
+403905,42856766,12/8/2019 18:21,Vestibulum scelerisque ante nec dolor porttitor convallis.
+403906,10993170,12/8/2019 18:24,"Cras luctus nisi id elit ultrices, at malesuada nisl tincidunt."
+403907,65276300,12/8/2019 18:25,"Vestibulum id quam tempus, venenatis augue at, maximus mi."
+403908,31984188,12/8/2019 18:28,Etiam ac enim sit amet quam fringilla hendrerit at vitae diam.
+403909,82836366,12/8/2019 18:32,"Cras lobortis lectus eget ipsum volutpat, a dignissim nisl placerat."
+403910,54120190,12/8/2019 18:34,"Nulla et libero condimentum, dictum ex vel, sagittis ipsum."
+403911,82836366,12/8/2019 18:38,"Ut vel massa varius, rutrum diam eu, vestibulum velit."
+403912,10993170,12/8/2019 18:40,Proin vehicula elit euismod velit vestibulum facilisis ac et urna.
+403913,52737281,12/8/2019 18:41,Quisque congue velit ut tortor commodo convallis.
+403914,94832806,12/8/2019 18:43,Donec imperdiet eros ac sagittis posuere.
+403915,6898742,12/8/2019 18:46,Pellentesque condimentum leo eget risus molestie feugiat.
+403916,96379267,12/8/2019 18:50,Duis sollicitudin nibh ac massa ultricies aliquet.
+403917,31632805,12/8/2019 18:53,Sed sed ante ac massa bibendum facilisis in sit amet lectus.
+403918,49925123,12/8/2019 18:55,Donec at magna ut dui tincidunt varius.
+403919,75564462,12/8/2019 18:59,In vitae urna a diam vehicula sagittis.
+403920,2398742,12/8/2019 19:02,Sed tristique justo id lectus faucibus ultrices.
+403921,31984188,12/8/2019 19:05,Sed quis lectus nec libero semper tempus.
+403922,50674807,12/8/2019 19:08,Aenean viverra felis sed finibus porta.
+403923,30813422,12/8/2019 19:09,Vivamus finibus sem non congue blandit.
+403924,47722299,12/8/2019 19:13,Phasellus in libero in ex hendrerit sollicitudin.
+403925,18918843,12/8/2019 19:14,Vestibulum non nibh eget leo mattis pretium eu vitae diam.
+403926,40140169,12/8/2019 19:17,"Sed iaculis dolor vel sapien consectetur, in congue nunc ullamcorper."
+403927,52096481,12/8/2019 19:20,Proin ac neque et sapien sodales auctor.
+403928,2398742,12/8/2019 19:23,Vivamus ac purus sed nunc feugiat blandit nec eget orci.
+403929,96379267,12/8/2019 19:24,"Nulla quis tellus bibendum, aliquam est in, ultricies lectus."
+403930,94761749,12/8/2019 19:26,"Fusce porta erat et libero efficitur, eu efficitur nibh congue."
+403931,65276300,12/8/2019 19:30,Mauris varius mi sit amet rhoncus porta.
+403932,96037833,12/8/2019 19:34,Maecenas sagittis augue at porta dictum.
+403933,18918843,12/8/2019 19:37,Sed et urna congue massa volutpat blandit.
+403934,86960861,12/8/2019 19:39,"Proin vitae neque ultrices, porttitor mi sit amet, egestas nisi."
+403935,47722299,12/8/2019 19:40,"Nam vel dolor ultricies, molestie neque eu, sollicitudin sem."
+403936,22830391,12/8/2019 19:43,Ut at ante nec ipsum dictum ornare et vitae justo.
+403937,88594698,12/8/2019 19:46,Donec sit amet ipsum a mi laoreet viverra in consectetur tellus.
+403938,47722299,12/8/2019 19:47,In commodo nisl ac dignissim laoreet.
+403939,50674807,12/8/2019 19:49,"Pellentesque ut ex sodales, mollis eros at, condimentum quam."
+403940,96379267,12/8/2019 19:51,Curabitur vitae nulla sit amet nunc pellentesque facilisis quis et quam.
+403941,47722299,12/8/2019 19:52,Phasellus gravida odio sed risus aliquam dictum.
+403942,9567273,12/8/2019 19:56,"Nullam eget mi aliquet, tincidunt magna eget, porta massa."
+403943,92528433,12/8/2019 19:59,"Sed ut sapien commodo, venenatis mauris at, porta augue."
+403944,85029242,12/8/2019 20:01,Phasellus quis metus id arcu faucibus blandit eu eget erat.
+403945,65276300,12/8/2019 20:02,"Morbi vestibulum tellus venenatis, tristique tellus a, dictum nisi."
+403946,22830391,12/8/2019 20:06,"Curabitur vel lectus vestibulum, elementum libero lacinia, lacinia augue."
+403947,6988481,12/8/2019 20:09,"Phasellus convallis neque sit amet augue suscipit, eget tempus risus scelerisque."
+403948,52737281,12/8/2019 20:11,Praesent et tortor ut elit luctus tincidunt.
+403949,2398742,12/8/2019 20:13,Vivamus nec mi eget nunc accumsan placerat.
+403950,5068480,12/8/2019 20:17,Donec bibendum sapien a finibus dapibus.
+403951,85029242,12/8/2019 20:20,Nam pulvinar arcu ut ligula tincidunt laoreet.
+403952,30813422,12/8/2019 20:24,Etiam placerat nibh sed efficitur venenatis.
+403953,96037833,12/8/2019 20:25,Sed tempor orci in placerat volutpat.
+403954,52096481,12/8/2019 20:29,Vestibulum rutrum turpis scelerisque ultricies fringilla.
+403955,41315375,12/8/2019 20:32,"Ut volutpat arcu et diam eleifend, eget convallis orci tincidunt."
+403956,6898742,12/8/2019 20:34,"Integer luctus sapien blandit nunc sollicitudin, et consequat ligula interdum."
+403957,34052592,12/8/2019 20:38,Mauris luctus risus et sem tempus blandit.
+403958,94832806,12/8/2019 20:39,Vestibulum lobortis ante a sem pretium gravida.
+403959,42852269,12/8/2019 20:41,"Morbi vitae libero rutrum, placerat est at, sagittis nunc."
+403960,94832806,12/8/2019 20:45,Praesent id enim id purus eleifend rhoncus.
+403961,89253200,12/8/2019 20:48,Pellentesque vehicula lectus id condimentum mattis.
+403962,96037833,12/8/2019 20:48,Aenean vitae ligula nec felis tempus convallis mattis id tellus.
+403963,88594698,12/8/2019 20:50,Morbi facilisis velit ut urna facilisis imperdiet.
+403964,50674807,12/8/2019 20:51,"Sed eget mauris mattis, porttitor tellus eu, facilisis arcu."
+403965,96864510,12/8/2019 20:51,Integer viverra odio ut massa pulvinar malesuada.
+403966,61795158,12/8/2019 20:54,"Sed malesuada magna et metus faucibus, nec sodales purus malesuada."
+403967,50674807,12/8/2019 20:57,Morbi convallis erat in lacinia blandit.
+403968,31632805,12/8/2019 20:59,"Praesent finibus orci quis massa maximus, ut fermentum purus pulvinar."
+403969,31984188,12/8/2019 21:02,Suspendisse eleifend orci eleifend dolor ornare lobortis.
+403970,6988481,12/8/2019 21:05,Quisque et massa eu dui ultricies imperdiet.
+403971,2398742,12/8/2019 21:07,Cras pulvinar tortor in mi condimentum efficitur.
+403972,31632805,12/8/2019 21:10,Aenean sagittis urna id molestie malesuada.
+403973,47529561,12/8/2019 21:13,Proin elementum lacus sed nisl semper semper vitae quis justo.
+403974,94761749,12/8/2019 21:16,"Suspendisse imperdiet orci ut quam laoreet, vehicula commodo quam gravida."
+403975,88594698,12/8/2019 21:17,Donec commodo neque ac lacus dapibus efficitur.
+403976,94761749,12/8/2019 21:18,"Proin eu lacus mollis, blandit nisl vitae, hendrerit enim."
+403977,47529561,12/8/2019 21:20,Suspendisse consectetur augue nec nibh facilisis laoreet.
+403978,49925123,12/8/2019 21:24,Aliquam eu tortor ut est accumsan varius.
+403979,42856766,12/8/2019 21:26,Morbi placerat felis ut viverra vehicula.
+403980,89253200,12/8/2019 21:30,Sed pellentesque mauris convallis turpis mollis rutrum.
+403981,99468227,12/8/2019 21:33,Proin pharetra massa quis elit sollicitudin ultrices.
+403982,54120190,12/8/2019 21:34,"Vivamus sodales est vulputate, molestie lectus at, commodo nisl."
+403983,12475863,12/8/2019 21:35,"Praesent pretium ex eu enim volutpat, at mollis nisl rhoncus."
+403984,47529561,12/8/2019 21:38,"Curabitur non urna volutpat, maximus orci vitae, rutrum neque."
+403985,18918843,12/8/2019 21:40,Quisque et odio sed elit bibendum dictum ut vel quam.
+403986,34052592,12/8/2019 21:43,Aenean in augue ac tellus tempor ultricies.
+403987,34305933,12/8/2019 21:47,"Proin at erat pellentesque, laoreet turpis eget, iaculis tellus."
+403988,31632805,12/8/2019 21:49,Suspendisse finibus odio sit amet nisi porttitor finibus.
+403989,47529561,12/8/2019 21:51,Aenean ut justo sed metus finibus placerat eu vitae sem.
+403990,42856766,12/8/2019 21:54,"Integer ac nibh commodo, tempus libero non, consequat mi."
+403991,50674807,12/8/2019 21:57,Vivamus ut massa eget libero rutrum maximus.
+403992,94832806,12/8/2019 22:01,Pellentesque non sem ac libero accumsan scelerisque at eget metus.
+403993,99468227,12/8/2019 22:02,Etiam non dui eget dolor tincidunt pellentesque nec vel ligula.
+403994,13758061,12/8/2019 22:04,Curabitur sed ligula egestas est bibendum consequat.
+403995,52096481,12/8/2019 22:08,Pellentesque sit amet eros nec nisl pharetra rhoncus.
+403996,83815319,12/8/2019 22:11,Vestibulum hendrerit metus eget nisi iaculis consequat.
+403997,96864510,12/8/2019 22:13,"Mauris at purus laoreet, dictum quam vel, tincidunt nulla."
+403998,13758061,12/8/2019 22:14,Donec pretium tortor ut ex tincidunt volutpat.
+403999,96864510,12/8/2019 22:15,"Vivamus tincidunt lectus ut quam molestie, nec mollis nibh iaculis."
+404000,6988481,12/8/2019 22:17,Nunc elementum magna vel blandit mattis.
+404001,34305933,12/8/2019 22:21,Proin lacinia risus eget odio efficitur sagittis.
+404002,94832806,12/8/2019 22:24,Ut consectetur tortor at pharetra condimentum.
+404003,52096481,12/8/2019 22:25,Maecenas accumsan diam ac consectetur auctor.
+404004,34052592,12/8/2019 22:28,Sed iaculis neque eu ultricies consectetur.
+404005,86960861,12/8/2019 22:28,"Donec ac tellus consequat, mollis arcu at, bibendum libero."
+404006,94832806,12/8/2019 22:32,Proin non elit ut nisi aliquet pellentesque quis at augue.
+404007,85029242,12/8/2019 22:34,Nam lacinia ante ac tempor interdum.
+404008,31632805,12/8/2019 22:36,In semper orci eget scelerisque hendrerit.
+404009,75564462,12/8/2019 22:38,"Maecenas vehicula nisl hendrerit neque tempor, et posuere justo eleifend."
+404010,11482505,12/8/2019 22:41,"Duis semper odio convallis ligula dapibus, sit amet scelerisque tellus blandit."
+404011,96037833,12/8/2019 22:43,"Maecenas fermentum felis in massa egestas, sit amet ultrices orci laoreet."
+404012,86960861,12/8/2019 22:45,"Curabitur tristique quam et lectus egestas, nec rhoncus diam iaculis."
+404013,41932907,12/8/2019 22:47,Aliquam consequat turpis et maximus elementum.
+404014,86960861,12/8/2019 22:48,Aenean scelerisque ante quis facilisis rhoncus.
+404015,92528433,12/8/2019 22:50,Proin ac leo at turpis lobortis fermentum.
+404016,79583157,12/8/2019 22:51,Nullam eget metus sit amet ex mollis porttitor.
+404017,94832806,12/8/2019 22:51,"Vestibulum aliquam arcu in orci condimentum, vestibulum fermentum dui vestibulum."
+404018,6898742,12/8/2019 22:55,In quis leo vitae justo efficitur posuere ut eget ex.
+404019,83815319,12/8/2019 22:57,Cras quis diam id enim ultrices cursus.
+404020,11482505,12/8/2019 23:00,Nunc sit amet nunc at mi interdum dictum ut et dolor.
