@@ -73,7 +73,7 @@ order_items = pd.DataFrame({
 # -----------------------
 # SAVE TO DBFS PATHS (Databricks) OR LOCAL
 # -----------------------
-base_path = "/dbfs/FileStore/tables"
+base_path = "/Volumes/workspace/default/course_data/project/"
 os.makedirs(base_path, exist_ok=True)
 
 customers.to_csv(os.path.join(base_path, "raw_customers.csv"), index=False)

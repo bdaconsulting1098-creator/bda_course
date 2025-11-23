@@ -52,11 +52,11 @@ SELECT
   CAST(oi.quantity AS INT) AS quantity,
   CAST(oi.unit_price AS DECIMAL(18, 2)) AS unit_price,
   CAST(oi.discount_amount AS DECIMAL(18, 2)) AS discount_amount,
-  (oi.quantity * oi.unit_price) AS extended_gross,
-  oi.discount_amount AS extended_discount,
-  (oi.quantity * oi.unit_price - oi.discount_amount) AS extended_net,
-  (oi.quantity * p.cost) AS cost_amount,
-  ((oi.quantity * oi.unit_price - oi.discount_amount) - (oi.quantity * p.cost)) AS margin_amount
+  (CAST(oi.quantity AS INT) * CAST(oi.unit_price AS DECIMAL(18, 2))) AS extended_gross,
+  CAST(oi.discount_amount AS DECIMAL(18, 2)) AS extended_discount,
+  ((CAST(oi.quantity AS INT) * CAST(oi.unit_price AS DECIMAL(18, 2))) - CAST(oi.discount_amount AS DECIMAL(18, 2))) AS extended_net,
+  (CAST(oi.quantity AS INT) * CAST(p.cost AS DECIMAL(18, 2))) AS cost_amount,
+  (((CAST(oi.quantity AS INT) * CAST(oi.unit_price AS DECIMAL(18, 2))) - CAST(oi.discount_amount AS DECIMAL(18, 2))) - (CAST(oi.quantity AS INT) * CAST(p.cost AS DECIMAL(18, 2)))) AS margin_amount
 FROM stg_order_items oi
 JOIN stg_orders o
   ON oi.order_id = o.order_id
