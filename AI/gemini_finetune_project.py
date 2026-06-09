@@ -16,7 +16,7 @@
 # COMMAND ----------
 
 PROJECT_ID = ""
-BUCKET_NAME = "aw-sql-tuning-bucket-turnkey-brook"
+BUCKET_NAME = ""
 LOCATION = "us-central1"
 # --- 动态获取 Databricks 当前用户名 ---
 # Databricks 中当前用户的邮箱通常会包含在路径中
@@ -28,7 +28,7 @@ except Exception:
     username = spark.sparkContext.getConf().get("spark.databricks.userName", "unknown")
 
 # 动态构建服务账号密钥文件路径
-SERVICE_ACCOUNT_PATH = f"/Workspace/Users/{username}/AI/ft-secret.json"
+SERVICE_ACCOUNT_PATH = f"/Workspace/Users/{username}/bda_course/AI/ft-secret.json"
 
 
 # 训练数据（本地文件，已为正确格式）
