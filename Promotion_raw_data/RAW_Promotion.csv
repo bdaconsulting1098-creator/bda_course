@@ -1,0 +1,18 @@
+DiscountTier,PromotionName,OnFlyer,Discount,PromotionType
+None,No Promotion,No,0.0,Regular Price
+Mid,10% Off + Flyer,Yes,0.1,Price Reduction
+Deep,40% Off + Flyer,Yes,40.0, Price Reduction
+,30% Off,No,0.3,Price Reduction
+,45% Off,No,0.45,Price Reduction
+Deep,35% Off, No,0.35,Price Reduction
+Deep,45% Off + Flyer,Yes,45%,Price Reduction
+Mid,20% Off,No,0.2,Price Reduction
+Deep,30% Off + Flyer,Yes,0.3,Price Reduction
+,30% Off,No,0.3,Price Reduction
+,45% Off,No,0.45,Price Reduction
+Deep,50% Off + Flyer,Yes,0.5,price reduction
+Mid,20% Off + Flyer,Yes,20.0,PRICE REDUCTION
+Deep,35% Off + Flyer,Yes,0.35,price reduction
+Mid,15% Off,No,0.15,Price Reduction
+Mid,5% Off + Flyer,Yes,5.0,Price Reduction
+Mid,15% Off + Flyer,Yes,15%,Price Reduction
